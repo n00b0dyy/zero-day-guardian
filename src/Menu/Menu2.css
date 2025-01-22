@@ -7,7 +7,7 @@
 
 .menu2-title {
   font-family: "Orbitron", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   cursor: pointer;
 }
@@ -55,6 +55,12 @@
 }
 
 @media (max-width: 480px) {
+  .menu2-title {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
   .menu2-list {
     left: -40px;
     width: 120%;
@@ -76,4 +82,12 @@
 
 .menu2-link:hover {
   color: #007bff;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .menu2-title {
+    font-size: 2rem;
+    white-space: normal;
+    margin-top: 40px;
+  }
 }

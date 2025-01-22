@@ -9,3 +9,12 @@
       0 0 40px rgba(128, 0, 128, 0.8);
   }
 }
+
+.logo {
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.2);
+  animation: glow 1.5s infinite alternate;
+}

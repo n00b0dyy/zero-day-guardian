@@ -4,22 +4,26 @@
   display: inline-block;
   font-family: "Orbitron", sans-serif;
   animation: glitch-animation 0.4s;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
+  transform-origin: left;
+}
+
+.glitch:hover {
+  color: magenta;
+  transform: scale(1.1);
 }
 
 .glitch-zero {
   font-size: 3rem;
   color: magenta;
   font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.glitch:hover {
-  color: magenta;
+  transition: color 0.3s ease, transform 0.3s ease;
+  transform-origin: left;
 }
 
 .glitch:hover .glitch-zero {
   color: #32ea73;
+  transform: scale(1.2);
 }
 
 .glitch-container {
