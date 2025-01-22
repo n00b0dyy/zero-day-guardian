@@ -33,7 +33,7 @@
 }
 
 .image-label {
-  font-size: 28px;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 10px;
   color: #ffffff;
@@ -46,8 +46,8 @@
 }
 
 .image-description {
-  font-size: 18px;
-  color: #cccccc;
+  font-size: 1.3rem;
+  color: #ffffff;
   min-height: 60px;
   display: flex;
   align-items: center;
@@ -59,10 +59,6 @@
   .image-wrapper {
     flex: 1 1 calc(50% - 20px);
     gap: 20px;
-  }
-
-  .image-label {
-    font-size: 16px;
   }
 }
 
@@ -86,10 +82,6 @@
 
   .body-image {
     max-width: 180px;
-  }
-
-  .image-label {
-    font-size: 14px;
   }
 }
 
@@ -121,13 +113,13 @@
   }
 
   .image-label {
-    font-size: 16px;
+    font-size: 1.8rem;
     margin-bottom: 1px;
   }
 
   .image-description {
-    font-size: 14px;
-    color: #cccccc;
+    font-size: 1.2rem;
+    color: #ffffff;
     min-height: 10px;
     display: flex;
     align-items: center;
