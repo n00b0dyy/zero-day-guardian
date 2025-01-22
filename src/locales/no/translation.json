@@ -1,0 +1,140 @@
+{
+  "header": {
+    "title": "Zer0-Day Guardian",
+    "menu1": "Vitenskap og Teknologi",
+    "menu2": "Fremtid og Innovasjoner"
+  },
+  "menu1": {
+    "algorithms": "Algoritmer",
+    "programming": "Programmering",
+    "geometryAnalysis": "Geometri og Matematisk Analyse",
+    "cybersecurity": "Cybersikkerhet",
+    "hardwareEngineering": "Maskinvare og Reverse Engineering"
+  },
+  "menu2": {
+    "artificialIntelligence": "Kunstig Intelligens",
+    "hacking": "Hacking",
+    "apis": "APIs",
+    "blockchainCrypto": "Blockchain og Kryptovaluta",
+    "quantumComputing": "Kvantdatabehandling",
+    "industry4IoT": "Industri 4.0 og IoT"
+  },
+  "body": {
+    "science": "Vitenskap",
+    "scienceDescription": "Utforskning av kunnskap og oppdagelser",
+    "technology": "Teknologi",
+    "technologyDescription": "Innovative teknologiske løsninger",
+    "future": "Fremtid",
+    "futureDescription": "Moderne tilnærming til utvikling",
+    "innovation": "Innovasjon",
+    "innovationDescription": "Banebrytende ideer som former verden"
+  },
+  "article": {
+    "author": "Forfatter",
+    "date": "Dato"
+  },
+  "articles": {
+    "1": {
+      "category": "Industry 4.0 and IoT",
+      "title": "Industri 4.0 og IoT i 2025: Revolusjon i Industrien og Hverdagen",
+      "content": "<h2>Industri 4.0 og IoT...</h2>",
+      "image": "/images/articles/article1.png",
+      "author": "N00b0dy",
+      "date": "2025-01-11"
+    },
+    "2": {
+      "category": "Quantum Computing",
+      "subcategory": "Innovation",
+      "title": "Kvantdatamaskiner: Den Teknologiske Revolusjonen i Fremtiden",
+      "content": "<h2>Kvantdatamaskiner: Den Teknologiske Revolusjonen i Fremtiden</h2><p>Kvantdatamaskiner...</p>",
+      "image": "/images/articles/Quantum_Computers_The_Technological_Revolution_of_the_Future.png",
+      "author": "N00b0dy",
+      "date": "2025-01-13"
+    }
+  },
+  "3": {
+    "category": "Cybersecurity",
+    "subcategory": "Science",
+    "title": "Backdoor i XZ Utils: Nye Funksjoner og Teknisk Analyse",
+    "content": "Oppdag avanserte teknikker bak backdoor i XZ Utils og dens innvirkning på open-source sikkerhet.",
+    "image": "/images/articles/Backdoor_in_XZ_Utils_New_Discoveries_and_Technical_Analysis.png",
+    "author": "N00b0dy",
+    "date": "2025-01-13"
+  },
+
+  "4": {
+    "category": "Algorithms",
+    "subcategory": "Science",
+    "title": "AES256: Grunnleggende, Historie og Betydning innen Cybersecurity",
+    "content": "AES256: Grunnleggende, Historie og Betydning innen Cybersecurity",
+    "image": "images/articles/AES256 Basics History and Significance in Cybersecurity.webp",
+    "author": "N00b0dy",
+    "date": "2025-01-14"
+  },
+
+  "map": {
+    "silicon_valley": "Silicon Valley",
+    "silicon_valley_description": "Silicon Valley i California, USA, er verdens sentrum for teknologisk innovasjon. Her holder de ledende selskapene innen kunstig intelligens, programvareutvikling og moderne teknologi til.",
+    "shenzhen": "Shenzhen, Kina",
+    "shenzhen_description": "Shenzhen, som ligger i Sør-Kina, er kjent som verdensledende innen produksjon av IoT-enheter. Byen er et mekka for teknologiparker og nystartede bedrifter.",
+    "helsinki": "Helsinki, Finland",
+    "helsinki_description": "Helsinki er et av Europas fremste sentre for cybersikkerhet. Byen tiltrekker seg eksperter og forskere som spesialiserer seg på datasikkerhet og beskyttelse av sensitive data.",
+    "warsaw": "Warszawa, Polen",
+    "warsaw_description": "5 av 7 ledende forskere som jobber med o1-modellen, kommer fra Polen. Dette fremhever polakkers betydelige bidrag til global AI-utvikling. Warszawa er et viktig vitenskapelig og teknologisk knutepunkt.",
+    "cambridge": "Cambridge, Storbritannia",
+    "cambridge_description": "Cambridge er kjent for sitt prestisjetunge universitet og regnes som fødestedet for informatikk og teoretisk matematikk. Her arbeidet Alan Turing, som la grunnlaget for moderne datavitenskap.",
+    "reykjavik": "Reykjavik, Island",
+    "reykjavik_description": "Reykjavik er kjent for sin bruk av fornybar energi. De fleste datasentrene på Island drives av geotermisk og vannkraft, noe som gjør dem miljøvennlige.",
+    "tel_aviv": "Tel Aviv, Israel",
+    "tel_aviv_description": "Tel Aviv er et globalt sentrum for innovasjon og oppstartsbedrifter, spesielt innen cybersikkerhet. Byen er hjem for selskaper som utvikler avanserte teknologier for databeskyttelse.",
+    "bangalore": "Bangalore, India",
+    "bangalore_description": "Bangalore, kjent som Indias Silicon Valley, er et viktig knutepunkt for programvareutvikling og teknologi. Byen tiltrekker seg talentfulle ingeniører og utviklere fra hele verden.",
+    "toronto": "Toronto, Canada",
+    "toronto_description": "Toronto er hjemsted for Citizen Lab, en forskningsenhet som studerer trusler mot menneskerettigheter i den digitale tidsalderen. Byen er også et ledende senter for utvikling av kunstig intelligens og ny teknologi.",
+    "svalbard": "Svalbard, Norge",
+    "svalbard_description": "Svalbard, en øygruppe i Polhavet, er hjemmet til Globalt Frøbank, en verdensomspennende sikkerhetskopi som bevarer frø fra verdens viktigste avlinger. Designet for å tåle naturkatastrofer, klimaendringer og menneskeskapte konflikter, sikrer Seed Vault global matsikkerhet ved å beskytte biodiversiteten.",
+    "norway": "Oslo, Norge",
+    "norway_description": "Norge er verdensledende innen resirkulering av plastflasker, med en resirkuleringsrate på 97 % takket være det innovative panteordning-systemet. Denne teknologien bidrar til å redusere plastavfall og fremmer bærekraftige praksiser globalt.",
+    "cape_town": "Cape Town, Sør-Afrika",
+    "cape_town_description": "Cape Town er ikke bare en kjent turistdestinasjon, men også et knutepunkt for teknologisk innovasjon på det afrikanske kontinentet. Byen er hjemsted for en rekke teknologiske oppstartsbedrifter som arbeider med løsninger innen fornybar energi og digitalt landbruk.",
+    "kigali": "Kigali, Rwanda",
+    "kigali_description": "Kigali kalles 'Afrikas Singapore' på grunn av sin moderne tilnærming til byplanlegging og teknologi. Byen har implementert avfallshåndteringssystemer og avansert offentlig transportteknologi, som elektriske motorsykkeltaxier.",
+    "nairobi": "Nairobi, Kenya",
+    "nairobi_description": "Nairobi, kjent som 'Silicon Savannah', er et fintech-knutepunkt i Afrika. Byen var pioner i innføringen av mobile betalingssystemer som M-Pesa, som revolusjonerte finansforvaltningen i regionen."
+  },
+  "aboutMe": {
+    "title": "Om meg",
+    "descriptionStart": "Hei! Mitt navn er",
+    "name": "Kamil Lukas Gorny",
+    "descriptionMiddle": "og jeg er en teknologientusiast som kombinerer interesser for cybersikkerhet, lavnivåprogrammering, kunstig intelligens (inkludert LLM-modeller) og reverse engineering. For tiden studerer jeg matematikk på R2-nivå for å forberede meg til å studere",
+    "computerScience": "datavitenskap",
+    "pagePurpose": "Denne nettsiden er en samling av informasjon jeg har samlet om emner som interesserer meg. Den demonstrerer også min kunnskap om JavaScript og React, siden jeg har bygget den fra bunnen av uten bruk av maler.",
+    "coursesTitle": "Kurs jeg har fullført",
+    "courses": {
+      "powershellBeginner": "PowerShell nybegynnerkurs – 6 timer online",
+      "powershellBeginnerLink": "https://www.youtube.com/watch?v=LVuI9d-k9C6A",
+      "powershellIntermediate": "PowerShell fra nybegynner til skriptutvikler – 11 timer online",
+      "powershellIntermediateLink": "https://www.udemy.com/certificate/UC-10b08877-27be-4fe1-b7d5-8cc3c51ebf4a/",
+      "powershellAdvanced": "PowerShell avansert",
+      "powershellAdvancedLink": "https://www.udemy.com/certificate/UC-3d2f6b06-b10d-4e9a-acf8-fdf9ca116538/",
+      "comptia": "CompTIA A+ Fullstendig kurs – 31 timer online",
+      "comptiaLink": "https://www.youtube.com/watch?v=1CZXXNKAY5o",
+      "pythonBootcamp": "100 Days of Code: Komplett Python Pro Bootcamp – 58 timer online",
+      "pythonBootcampLink": "https://www.udemy.com/course/100-days-of-code/learn/lecture/23154980#overview",
+      "cybersecurity1": "Det komplette kurset i cybersikkerhet | V1",
+      "cybersecurity1Details": "Sertifikat: Nathan House BSc. Sertifikatnummer 1-2875424334",
+      "cybersecurity1Link": "https://funkweb.udemy.com/certificate/UC-009f971d-6af6-471d-85b5-54329e501f06/",
+      "cybersecurity2": "Det komplette kurset i cybersikkerhet | V2",
+      "cybersecurity2Details": "Sertifikat: Nathan House BSc. Sertifikatnummer 2-2875424334",
+      "cybersecurity2Link": "https://funkweb.udemy.com/certificate/UC-1e406f53-825a-499b-a430-7c40b6025399/",
+      "linux": "Linux for nybegynnere",
+      "linuxLink": "https://funkweb.udemy.com/certificate/UC-b7808161-a224-42ac-a91d-939f17d5caeb/",
+      "javascriptExpert": "Det komplette JavaScript-kurset 2024: Fra nybegynner til ekspert! – 68,5 timer totalt",
+      "javascriptExpertLink": "https://funkweb.udemy.com/certificate/UC-7945af24-5b63-4bc2-94d7-807eecaee128/",
+      "viewCourseLink": "Vis kurs",
+      "viewCertificateLink": "Vis sertifikat"
+    },
+    "beyondTechnologyTitle": "Utenfor teknologi",
+    "beyondTechnologyDescription": "Utenfor teknologiverdenen elsker jeg å bruke tiden aktivt. Snowboard og fjellvandring er mine favorittmåter å slappe av og lade opp. På fritiden liker jeg å lese bøker eller utforske verden rundt meg, og hente inspirasjon fra hver opplevelse."
+  }
+}

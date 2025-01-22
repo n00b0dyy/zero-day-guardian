@@ -1,0 +1,148 @@
+{
+  "header": {
+    "title": "Zer0-Day Guardian",
+    "menu1": "Nauka i Technologia",
+    "menu2": "Przyszłość i Innowacje"
+  },
+  "menu1": {
+    "algorithms": "Algorytmy",
+    "programming": "Programowanie",
+    "geometryAnalysis": "Geometria i Analiza Matematyczna",
+    "cybersecurity": "Cyberbezpieczeństwo",
+    "hardwareEngineering": "Inżynieria Sprzętowa i Reverse Engineering"
+  },
+  "menu2": {
+    "artificialIntelligence": "Sztuczna Inteligencja",
+    "hacking": "Hacking",
+    "apis": "APIs",
+    "blockchainCrypto": "Blockchain i Kryptowaluty",
+    "quantumComputing": "Obliczenia Kwantowe",
+    "industry4IoT": "Przemysł 4.0 i IoT"
+  },
+  "body": {
+    "science": "Nauka",
+    "scienceDescription": "Eksploracja wiedzy i odkryć",
+    "technology": "Technologia",
+    "technologyDescription": "Innowacyjne rozwiązania technologiczne",
+    "future": "Przyszłość",
+    "futureDescription": "Nowoczesne podejście do rozwoju",
+    "innovation": "Innowacja",
+    "innovationDescription": "Pionierskie idee zmieniające świat"
+  },
+  "article": {
+    "author": "Autor",
+    "date": "Data"
+  },
+  "articles": {
+    "1": {
+      "category": "Industry 4.0 and IoT",
+      "subcategory": "Przyszłość",
+      "title": "Przemysł 4.0 i IoT w 2025 roku: Rewolucja w Przemyśle i Życiu Codziennym",
+      "content": "<h2>Przemysł 4.0 i IoT...</h2>",
+      "image": "/images/articles/article1.png",
+      "author": "N00b0dy",
+      "date": "2025-01-11"
+    },
+    "2": {
+      "category": "Quantum Computing",
+      "subcategory": "Innowacja",
+      "title": "Komputery Kwantowe: Technologiczna Rewolucja Przyszłości",
+      "content": "<h2>Komputery Kwantowe: Technologiczna Rewolucja Przyszłości</h2><p>Komputery kwantowe...</p>",
+      "image": "/images/articles/Quantum_Computers_The_Technological_Revolution_of_the_Future.png",
+      "author": "N00b0dy",
+      "date": "2025-01-13"
+    }
+  },
+  "3": {
+    "category": "Cybersecurity",
+    "subcategory": "Nauka",
+    "title": "Backdoor w XZ Utils: Nowe Odkrycia i Analiza Techniczna",
+    "content": "Odkryj zaawansowane techniki zastosowane w backdoorze w XZ Utils i jego wpływ na bezpieczeństwo open source.",
+    "image": "/images/articles/Backdoor_in_XZ_Utils.png",
+    "author": "N00b0dy",
+    "date": "2025-01-13"
+  },
+  "4": {
+    "category": "Algorithms",
+    "subcategory": "Nauka",
+    "title": "AES256: Podstawy, Historia i Znaczenie w Cyberbezpieczeństwie",
+    "content": "AES256: Podstawy, Historia i Znaczenie w Cyberbezpieczeństwie",
+    "image": "/images/articles/AES256.png",
+    "author": "N00b0dy",
+    "date": "2025-01-14"
+  },
+  "5": {
+    "category": "Geometria i Analiza Matematyczna",
+    "subcategory": "Nauka",
+    "title": "Nowa geometria: jak kształt 'Einstein' tworzy nigdy niepowtarzający się wzór",
+    "content": "Kształt 'Einstein' to przełom w matematyce, który umożliwia pokrycie płaszczyzny nieskończonym, niepowtarzalnym wzorem.",
+    "image": "/images/articles/einstein.png",
+    "author": "N00b0dy",
+    "date": "2025-01-15"
+  },
+  "map": {
+    "silicon_valley": "Dolina Krzemowa",
+    "silicon_valley_description": "Dolina Krzemowa w Kalifornii, USA, to światowe centrum innowacji technologicznych. Znajdują się tu siedziby wiodących firm zajmujących się rozwojem sztucznej inteligencji, tworzeniem oprogramowania i nowoczesnych urządzeń.",
+    "shenzhen": "Shenzhen, Chiny",
+    "shenzhen_description": "Shenzhen, położony w południowych Chinach, jest liderem w produkcji urządzeń IoT. Miasto słynie z nowoczesnych parków technologicznych i dynamicznie rozwijającej się infrastruktury dla start-upów i gigantów technologicznych.",
+    "helsinki": "Helsinki, Finlandia",
+    "helsinki_description": "Helsinki to europejskie centrum cyberbezpieczeństwa. Miasto przyciąga ekspertów i badaczy zajmujących się ochroną danych, odgrywając kluczową rolę w zapewnianiu bezpieczeństwa cyfrowego.",
+    "warsaw": "Warszawa, Polska",
+    "warsaw_description": "5 z 7 głównych badaczy modelu o1 pochodzi z Polski, co podkreśla znaczący wkład Polaków w globalny rozwój AI. Warszawa jest ważnym ośrodkiem naukowym i technologicznym, gdzie innowacje odgrywają kluczową rolę.",
+    "cambridge": "Cambridge, Wielka Brytania",
+    "cambridge_description": "Cambridge, znane z prestiżowego uniwersytetu, jest miejscem narodzin informatyki i matematyki teoretycznej. To tutaj A. Turing stworzył podstawy współczesnej informatyki.",
+    "reykjavik": "Reykjavik, Islandia",
+    "reykjavik_description": "Reykjavik to lider w wykorzystaniu energii odnawialnej. Większość centrów danych na Islandii korzysta z geotermii i energii wodnej, co czyni je przyjaznymi dla środowiska.",
+    "tel_aviv": "Tel Awiw, Izrael",
+    "tel_aviv_description": "Tel Awiw to centrum innowacji i start-upów, zwłaszcza w dziedzinie cyberbezpieczeństwa. Miasto jest domem dla firm rozwijających nowoczesne technologie ochrony danych.",
+    "bangalore": "Bangalore, Indie",
+    "bangalore_description": "Bangalore, zwane Doliną Krzemową Indii, jest głównym ośrodkiem rozwoju oprogramowania i technologii w Azji. Miasto przyciąga programistów i inżynierów z całego świata.",
+    "toronto": "Toronto, Kanada",
+    "toronto_description": "Toronto to siedziba Citizen Lab, które bada zagrożenia dla praw człowieka w erze cyfrowej. Miasto jest także ważnym centrum rozwoju sztucznej inteligencji i nowych technologii.",
+    "svalbard": "Svalbard, Norwegia",
+    "svalbard_description": "Svalbard, archipelag położony w Oceanie Arktycznym, jest domem dla Globalnego Banku Nasion. To wyjątkowe miejsce przechowuje nasiona najważniejszych roślin uprawnych świata, zapewniając ich ochronę przed katastrofami naturalnymi, zmianami klimatu i konfliktami zbrojnymi.",
+    "norway": "Norwegia",
+    "norway_description": "Norwegia jest światowym liderem w recyklingu plastikowych butelek, osiągając 97% skuteczności dzięki innowacyjnemu systemowi panteordning. Ta technologia zmniejsza ilość odpadów plastikowych i promuje zrównoważone praktyki na całym świecie.",
+    "cape_town": "Kapsztad, Republika Południowej Afryki",
+    "cape_town_description": "Kapsztad to nie tylko znana atrakcja turystyczna, ale także centrum innowacji technologicznych na kontynencie afrykańskim. Miasto jest domem dla licznych start-upów technologicznych, które pracują nad rozwiązaniami w zakresie energii odnawialnej i cyfrowego rolnictwa.",
+    "kigali": "Kigali, Rwanda",
+    "kigali_description": "Kigali nazywane jest 'Singapurem Afryki' dzięki swojemu nowoczesnemu podejściu do urbanistyki i technologii. Miasto wdrożyło systemy zarządzania odpadami oraz nowoczesne technologie w transport publiczny, takie jak elektryczne motocykle-taksówki.",
+    "nairobi": "Nairobi, Kenia",
+    "nairobi_description": "Nairobi, znane jako 'Silicon Savannah', jest centrum fintechu w Afryce. Miasto było pionierem wprowadzenia mobilnych systemów płatności, takich jak M-Pesa, które zrewolucjonizowały sposób zarządzania finansami w regionie."
+  },
+  "aboutMe": {
+    "title": "O mnie",
+    "descriptionStart": "Cześć! Mam na imię",
+    "name": "Kamil Łukasz Górny",
+    "descriptionMiddle": "i jestem pasjonatem technologii, łączącym zainteresowania w zakresie cyberbezpieczeństwa, programowania niskopoziomowego, sztucznej inteligencji (w tym modeli LLM) oraz reverse engineeringu. Obecnie uczę się matematyki na poziomie R2, aby przygotować się do",
+    "computerScience": "informatyki",
+    "pagePurpose": "Ta strona to zbiór informacji, które zgromadziłem na tematy, które mnie interesują. Pokazuje również moją znajomość JavaScript i React, ponieważ stworzyłem ją od podstaw, bez korzystania z szablonów.",
+    "coursesTitle": "Kursy, które ukończyłem",
+    "courses": {
+      "powershellBeginner": "PowerShell dla początkujących – pełny kurs – 6 godzin online",
+      "powershellBeginnerLink": "https://www.youtube.com/watch?v=LVuI9d-k9C6A",
+      "powershellIntermediate": "PowerShell od początkującego do twórcy skryptów – 11 godzin online",
+      "powershellIntermediateLink": "https://www.udemy.com/certificate/UC-10b08877-27be-4fe1-b7d5-8cc3c51ebf4a/",
+      "powershellAdvanced": "PowerShell zaawansowany",
+      "powershellAdvancedLink": "https://www.udemy.com/certificate/UC-3d2f6b06-b10d-4e9a-acf8-fdf9ca116538/",
+      "comptia": "CompTIA A+ – pełny kurs – 31 godzin online",
+      "comptiaLink": "https://www.youtube.com/watch?v=IC7XXNKJAYs",
+      "pythonBootcamp": "100 Days of Code: Kompletny Bootcamp Python Pro – 58 godzin online",
+      "pythonBootcampLink": "https://www.udemy.com/course/100-days-of-code/learn/lecture/23154980#overview",
+      "cybersecurity1": "Kompletny kurs cyberbezpieczeństwa | 1",
+      "cybersecurity1Details": "Certyfikat: Nathan House BSc. Numer certyfikatu 1-2875424334",
+      "cybersecurity1Link": "https://funkweb.udemy.com/certificate/UC-009f971d-6af6-471d-85b5-54329e501f06/",
+      "cybersecurity2": "Kompletny kurs cyberbezpieczeństwa | 2",
+      "cybersecurity2Details": "Certyfikat: Nathan House BSc. Numer certyfikatu 2-2875424334",
+      "cybersecurity2Link": "https://funkweb.udemy.com/certificate/UC-1e406f53-825a-499b-a430-7c40b6025399/",
+      "linux": "Linux dla początkujących",
+      "linuxLink": "https://www.udemy.com/certificate/UC-b7808161-a224-42ac-a91d-93917d5caeb/",
+      "javascriptExpert": "Kompletny kurs JavaScript 2024: Od zera do eksperta! – 68,5 godzin",
+      "javascriptExpertLink": "https://funkweb.udemy.com/certificate/UC-7945af24-5b63-4bc2-94d7-807eecaee128/",
+      "viewCourseLink": "Zobacz kurs",
+      "viewCertificateLink": "Zobacz certyfikat"
+    },
+    "beyondTechnologyTitle": "Poza technologią",
+    "beyondTechnologyDescription": "Poza światem technologii uwielbiam spędzać czas aktywnie. Snowboard i wędrówki górskie to moje ulubione formy relaksu i odpoczynku. W wolnym czasie lubię czytać książki lub eksplorować otaczający mnie świat, czerpiąc inspirację z każdego doświadczenia."
+  }
+}

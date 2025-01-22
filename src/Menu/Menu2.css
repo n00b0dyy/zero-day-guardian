@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+.menu2-container {
+  position: relative;
+  display: inline-block;
+}
+
+.menu2-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.menu2-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: -150px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  width: 270px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.menu2-container:hover .menu2-list {
+  opacity: 1;
+  transform: scaleY(1);
+  pointer-events: auto;
+}
+
+.menu2-list li {
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.8);
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.menu2-list li:first-child {
+  margin-top: 20px;
+}
+.menu2-list li:last-child {
+  border-bottom: none;
+}
+
+.menu2-list li:hover {
+  background-color: rgba(240, 240, 240, 0.8);
+}
+
+@media (max-width: 480px) {
+  .menu2-list {
+    left: -40px;
+    width: 120%;
+  }
+}
+.menu2-list li {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 1024px) {
+  .menu2-list {
+    left: 0;
+  }
+}
+.menu2-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu2-link:hover {
+  color: #007bff;
+}

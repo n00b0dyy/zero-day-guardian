@@ -1,0 +1,123 @@
+.about-me-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+  background-color: #000000;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.about-me-photo-container {
+  width: 240px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-me-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.about-me-socials {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.socials-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.social-icon {
+  font-size: 2.5rem;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+.about-me-title {
+  margin-top: 0;
+}
+
+.about-me-description {
+  margin-top: 20px;
+}
+
+.courses-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.courses-list li {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.courses-list a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.courses-list a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .about-me-container {
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+
+  .about-me-photo-container {
+    width: 120px;
+  }
+
+  .about-me-photo {
+    width: 100%;
+  }
+
+  .social-icon {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-me-container {
+    padding: 0 20px;
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+
+  .about-me-photo-container {
+    width: 100px;
+  }
+
+  .about-me-photo {
+    width: 100%;
+  }
+
+  .courses-list {
+    font-size: 0.8rem;
+  }
+
+  .social-icon {
+    font-size: 1rem;
+  }
+}

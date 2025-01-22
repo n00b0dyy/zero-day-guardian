@@ -1,0 +1,86 @@
+.glitch {
+  font-size: 8.5vh;
+  color: #32ea73;
+  display: inline-block;
+  font-family: "Orbitron", sans-serif;
+  animation: glitch-animation 0.4s;
+  transition: color 0.3s ease;
+}
+
+.glitch-zero {
+  font-size: 3rem;
+  color: magenta;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.glitch:hover {
+  color: magenta;
+}
+
+.glitch:hover .glitch-zero {
+  color: #32ea73;
+}
+
+.glitch-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+@keyframes glitch-animation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.6;
+    text-shadow: 5px 5px 0 cyan, -5px 5px 0 magenta;
+  }
+  25% {
+    opacity: 0.5;
+    text-shadow: 3px 5px 0 lime, -4px -2px 0 yellow;
+  }
+  40% {
+    opacity: 0.7;
+    text-shadow: 7px 2px 0 violet, -10px -8px 0 electricblue;
+  }
+  60% {
+    opacity: 0.4;
+    text-shadow: 3px 6px 5px yellow, -5px -5px 5px pink;
+  }
+  80% {
+    opacity: 0.8;
+    text-shadow: 3px -5px 0 cyan, 4px 2px 10px orange;
+  }
+}
+
+@media (max-width: 768px) {
+  .glitch {
+    font-size: 0.9rem;
+  }
+
+  .glitch-zero {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .glitch {
+    font-size: 1.2rem;
+  }
+
+  .glitch-zero {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .glitch {
+    font-size: 2.2rem;
+  }
+
+  .glitch-zero {
+    font-size: 4.5rem;
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Zer0-Day Guardian",
+    "menu1": "Science and Technology",
+    "menu2": "Future and Innovations"
+  },
+  "menu1": {
+    "algorithms": "Algorithms",
+    "programming": "Programming",
+    "geometryAnalysis": "Geometry and Mathematical Analysis",
+    "cybersecurity": "Cybersecurity",
+    "hardwareEngineering": "Hardware and Reverse Engineering"
+  },
+  "menu2": {
+    "artificialIntelligence": "Artificial Intelligence",
+    "hacking": "Hacking",
+    "apis": "APIs",
+    "blockchainCrypto": "Blockchain and Crypto",
+    "quantumComputing": "Quantum Computing",
+    "industry4IoT": "Industry 4.0 and IoT"
+  },
+  "body": {
+    "science": "Science",
+    "scienceDescription": "Exploration of knowledge and discoveries",
+    "technology": "Technology",
+    "technologyDescription": "Innovative technological solutions",
+    "future": "Future",
+    "futureDescription": "Modern approach to development",
+    "innovation": "Innovation",
+    "innovationDescription": "Pioneering ideas shaping the world"
+  },
+  "article": {
+    "author": "Author",
+    "date": "Date"
+  },
+  "articles": {
+    "1": {
+      "category": "Industry 4.0 and IoT",
+      "subcategory": "Innovation",
+      "title": "Industry 4.0 and IoT in 2025: Revolution in Industry and Everyday Life",
+      "content": "<h2>Industry 4.0 and IoT...</h2>",
+      "image": "/images/articles/article1.png",
+      "author": "N00b0dy",
+      "date": "2025-01-11"
+    },
+    "2": {
+      "category": "Quantum Computing",
+      "subcategory": "Innovation",
+      "title": "Quantum Computers: The Technological Revolution of the Future",
+      "content": "<h2>Quantum Computers: The Technological Revolution of the Future</h2><p>Quantum computers...</p>",
+      "image": "/images/articles/Quantum_Computers_The_Technological_Revolution_of_the_Future.png",
+      "author": "N00b0dy",
+      "date": "2025-01-13"
+    },
+    "3": {
+      "category": "Cybersecurity",
+      "subcategory": "Science",
+      "title": "Backdoor in XZ Utils: New Discoveries and Technical Analysis",
+      "content": "<h2>Backdoor in XZ Utils</h2><p>Discover the advanced techniques behind the XZ Utils backdoor and its impact on open-source security.</p>",
+      "image": "/images/articles/Backdoor_in_XZ_Utils_New_Discoveries_and_Technical_Analysis.png",
+      "author": "N00b0dy",
+      "date": "2025-01-13"
+    },
+    "4": {
+      "category": "Algorithms",
+      "subcategory": "Science",
+      "title": "AES256: Basics, History, and Significance in Cybersecurity",
+      "content": "<h2>AES256: Basics, History, and Significance in Cybersecurity</h2><p>A comprehensive look at AES256, its development, and its critical role in modern cybersecurity.</p>",
+      "image": "/images/articles/AES256_Basics_History_and_Significance_in_Cybersecurity.webp",
+      "author": "N00b0dy",
+      "date": "2025-01-14"
+    }
+  },
+
+  "map": {
+    "silicon_valley": "Silicon Valley",
+    "silicon_valley_description": "Silicon Valley, located in California, USA, is the global hub for technological innovation. It is home to leading companies driving advancements in artificial intelligence, software development, and modern gadgets.",
+    "shenzhen": "Shenzhen, China",
+    "shenzhen_description": "Shenzhen, situated in southern China, is known as the world leader in IoT device manufacturing. The city is renowned for its tech parks and vibrant ecosystem supporting startups and tech giants.",
+    "helsinki": "Helsinki, Finland",
+    "helsinki_description": "Helsinki is one of Europe's top centers for cybersecurity. The city attracts experts and researchers focused on data protection, playing a pivotal role in ensuring digital security.",
+    "warsaw": "Warsaw, Poland",
+    "warsaw_description": "5 out of 7 leading researchers working on the o1 model are Polish, showcasing the significant contribution of Poles to global AI development. Warsaw is a key hub for science and technology, fostering innovation and progress.",
+    "cambridge": "Cambridge, United Kingdom",
+    "cambridge_description": "Cambridge, known for its prestigious university, is regarded as the birthplace of computer science and theoretical mathematics. Alan Turing, who laid the foundations of modern computing, worked here.",
+    "reykjavik": "Reykjavik, Iceland",
+    "reykjavik_description": "Reykjavik is a leader in the use of renewable energy. Most data centers in Iceland are powered by geothermal and hydroelectric energy, making them environmentally sustainable.",
+    "tel_aviv": "Tel Aviv, Israel",
+    "tel_aviv_description": "Tel Aviv is a global hub for innovation and startups, especially in the field of cybersecurity. The city hosts companies developing advanced technologies for data protection and cyber defense.",
+    "bangalore": "Bangalore, India",
+    "bangalore_description": "Bangalore, often referred to as the Silicon Valley of India, is a major center for software development and technology. The city attracts talented engineers and developers from around the world.",
+    "toronto": "Toronto, Canada",
+    "toronto_description": "Toronto is home to Citizen Lab, a research center that investigates threats to human rights in the digital age. The city is also a leading hub for artificial intelligence and cutting-edge technologies.",
+    "svalbard": "Svalbard, Norway",
+    "svalbard_description": "Svalbard, an archipelago situated in the Arctic Ocean, is home to the Global Seed Vault, a secure backup facility that preserves the seeds of the world's most vital crops. Designed to withstand natural disasters, climate change, and human conflict, the Seed Vault ensures global food security by safeguarding biodiversity.",
+    "norway": "Norway",
+    "norway_description": "Norway is a global leader in recycling plastic bottles, achieving a 97% recycling rate through its innovative panteordning system. This advanced technology not only reduces plastic waste but also sets an example for sustainable practices worldwide.",
+    "cape_town": "Cape Town, South Africa",
+    "cape_town_description": "Cape Town is not only a famous tourist destination but also a hub of technological innovation on the African continent. The city is home to numerous tech start-ups working on solutions in renewable energy and digital agriculture.",
+    "kigali": "Kigali, Rwanda",
+    "kigali_description": "Kigali is known as the 'Singapore of Africa' due to its modern approach to urban planning and technology. The city has implemented waste management systems and advanced public transportation technologies such as electric motorcycle taxis.",
+    "nairobi": "Nairobi, Kenya",
+    "nairobi_description": "Nairobi, known as 'Silicon Savannah,' is a fintech hub in Africa. The city pioneered the introduction of mobile payment systems like M-Pesa, revolutionizing financial management in the region."
+  },
+
+  "aboutMe": {
+    "title": "About Me",
+    "descriptionStart": "Hi! My name is",
+    "name": "Kamil Lukas Gorny",
+    "descriptionMiddle": "and I am a technology enthusiast combining interests in cybersecurity, low-level programming, artificial intelligence (including LLM models), and reverse engineering. Currently, I am studying mathematics at the R2 level to prepare for",
+    "computerScience": "Computer Science",
+    "pagePurpose": "This website is a collection of information I have gathered on topics that interest me. It also demonstrates my knowledge of JavaScript and React, as I built it from scratch without using any templates.",
+    "coursesTitle": "Courses I've Completed",
+    "courses": {
+      "powershellBeginner": "PowerShell Beginner Tutorial Full Course – 6 hours online",
+      "powershellBeginnerLink": "https://www.youtube.com/watch?v=LVuI9d-k9C6A",
+      "powershellIntermediate": "PowerShell from Beginner To Sheller And Scripter – 11 hours online",
+      "powershellIntermediateLink": "https://www.udemy.com/certificate/UC-10b08877-27be-4fe1-b7d5-8cc3c51ebf4a/",
+      "powershellAdvanced": "PowerShell Advanced",
+      "powershellAdvancedLink": "https://www.udemy.com/certificate/UC-3d2f6b06-b10d-4e9a-acf8-fdf9ca116538/",
+      "comptia": "CompTIA A+ Full Course – 31 hours online",
+      "comptiaLink": "https://www.youtube.com/watch?v=IC7XXNKJAYs",
+      "pythonBootcamp": "100 Days of Code: The Complete Python Pro Bootcamp – 58 hours online",
+      "pythonBootcampLink": "https://www.udemy.com/course/100-days-of-code/learn/lecture/23154980#overview",
+      "cybersecurity1": "The Complete Cybersecurity Course | Volume 1",
+      "cybersecurity1Details": "Certificate: Nathan House BSc. Certificate number 1-2875424334",
+      "cybersecurity1Link": "https://funkweb.udemy.com/certificate/UC-009f971d-6af6-471d-85b5-54329e501f06/",
+      "cybersecurity2": "The Complete Cybersecurity Course | Volume 2",
+      "cybersecurity2Details": "Certificate: Nathan House BSc. Certificate number 2-2875424334",
+      "cybersecurity2Link": "https://funkweb.udemy.com/certificate/UC-1e406f53-825a-499b-a430-7c40b6025399/",
+      "linux": "Linux For Beginners",
+      "linuxLink": "https://funkweb.udemy.com/certificate/UC-b7808161-a224-42ac-a91d-939f17d5caeb/",
+      "javascriptExpert": "The Complete JavaScript Course 2024: From Zero to Expert! – 68.5 total hours",
+      "javascriptExpertLink": "https://funkweb.udemy.com/certificate/UC-7945af24-5b63-4bc2-94d7-807eecaee128/",
+      "viewCourseLink": "View course",
+      "viewCertificateLink": "View certificate"
+    },
+    "beyondTechnologyTitle": "Beyond Technology",
+    "beyondTechnologyDescription": "Outside of technology, I love spending my time actively. Snowboarding and mountain hiking are my favorite ways to relax and unwind. In my free time, I enjoy reading books or exploring the world around me, drawing inspiration from every experience."
+  }
+}

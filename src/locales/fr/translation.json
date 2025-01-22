@@ -1,0 +1,145 @@
+{
+  "header": {
+    "title": "Zer0-Day Guardian",
+    "menu1": "Science et Technologie",
+    "menu2": "Futur et Innovations"
+  },
+  "menu1": {
+    "algorithms": "Algorithmes",
+    "programming": "Programmation",
+    "geometryAnalysis": "Géométrie et Analyse Mathématique",
+    "cybersecurity": "Cybersécurité",
+    "hardwareEngineering": "Ingénierie Matérielle et Reverse Engineering"
+  },
+  "menu2": {
+    "artificialIntelligence": "Intelligence Artificielle",
+    "hacking": "Hacking",
+    "apis": "APIs",
+    "blockchainCrypto": "Blockchain et Crypto",
+    "quantumComputing": "Calcul Quantique",
+    "industry4IoT": "Industrie 4.0 et IoT"
+  },
+  "body": {
+    "science": "Science",
+    "scienceDescription": "Exploration des connaissances et des découvertes",
+    "technology": "Technologie",
+    "technologyDescription": "Solutions technologiques innovantes",
+    "future": "Futur",
+    "futureDescription": "Approche moderne du développement",
+    "innovation": "Innovation",
+    "innovationDescription": "Idées pionnières façonnant le monde"
+  },
+  "article": {
+    "author": "Auteur",
+    "date": "Date"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "category": "Industry 4.0 and IoT",
+      "subcategory": "Futur",
+      "title": "Industrie 4.0 et IoT en 2025 : Révolution dans l'Industrie et la Vie Quotidienne",
+      "content": "<h2>Industrie 4.0 et IoT...</h2>",
+      "image": "/images/articles/article1.png",
+      "author": "N00b0dy",
+      "date": "2025-01-11"
+    },
+    {
+      "id": 2,
+      "category": "Quantum Computing",
+      "subcategory": "Innovation",
+      "title": "Ordinateurs Quantiques : La Révolution Technologique de l'Avenir",
+      "content": "<h2>Ordinateurs Quantiques : La Révolution Technologique de l'Avenir</h2><p>Les ordinateurs quantiques...</p>",
+      "image": "/images/articles/Quantum_Computers_The_Technological_Revolution_of_the_Future.png",
+      "author": "N00b0dy",
+      "date": "2025-01-13"
+    },
+    {
+      "id": 3,
+      "category": "Cybersecurity",
+      "subcategory": "Science",
+      "title": "Backdoor dans XZ Utils : Nouvelles Découvertes et Analyse Technique",
+      "content": "Découvrez les techniques avancées derrière le backdoor dans XZ Utils et son impact sur la sécurité open-source.",
+      "image": "/images/articles/Backdoor_in_XZ_Utils_New_Discoveries_and_Technical_Analysis.png",
+      "author": "N00b0dy",
+      "date": "2025-01-13"
+    },
+    {
+      "id": 4,
+      "category": "Algorithms",
+      "subcategory": "Science",
+      "title": "AES256 : Bases, Histoire et Importance dans la Cybersécurité",
+      "content": "AES256 : Bases, Histoire et Importance dans la Cybersécurité",
+      "image": "images/articles/AES256 Basics History and Significance in Cybersecurity.webp",
+      "author": "N00b0dy",
+      "date": "2025-01-14"
+    }
+  ],
+
+  "map": {
+    "silicon_valley": "Silicon Valley",
+    "silicon_valley_description": "Silicon Valley, située en Californie, aux États-Unis, est le centre mondial de l'innovation technologique. C'est là que se trouvent les sièges des entreprises leaders en intelligence artificielle, en développement logiciel et en création de technologies modernes.",
+    "shenzhen": "Shenzhen, Chine",
+    "shenzhen_description": "Shenzhen, dans le sud de la Chine, est reconnu comme le leader mondial de la fabrication de dispositifs IoT. La ville est célèbre pour ses parcs technologiques et son écosystème dynamique pour les start-ups.",
+    "helsinki": "Helsinki, Finlande",
+    "helsinki_description": "Helsinki est l'un des principaux centres européens de cybersécurité. La ville attire des experts et des chercheurs spécialisés dans la protection des données sensibles, jouant un rôle clé dans la sécurité numérique.",
+    "warsaw": "Varsovie, Pologne",
+    "warsaw_description": "5 des 7 principaux chercheurs travaillant sur le modèle o1 sont originaires de Pologne, soulignant l'impact important des Polonais sur le développement mondial de l'IA. Varsovie est un centre scientifique et technologique majeur.",
+    "cambridge": "Cambridge, Royaume-Uni",
+    "cambridge_description": "Cambridge, célèbre pour son université prestigieuse, est considéré comme le berceau de l'informatique et des mathématiques théoriques. C'est ici qu'Alan Turing a posé les bases de l'informatique moderne.",
+    "reykjavik": "Reykjavik, Islande",
+    "reykjavik_description": "Reykjavik est un leader dans l'utilisation des énergies renouvelables. La plupart des centres de données en Islande fonctionnent grâce à l'énergie géothermique et hydraulique, les rendant écologiquement durables.",
+    "tel_aviv": "Tel Aviv, Israël",
+    "tel_aviv_description": "Tel Aviv est un centre mondial d'innovation et de start-ups, notamment dans le domaine de la cybersécurité. La ville abrite des entreprises développant des technologies avancées pour la protection des données.",
+    "bangalore": "Bangalore, Inde",
+    "bangalore_description": "Bangalore, souvent appelée la Silicon Valley de l'Inde, est un centre clé pour le développement logiciel et technologique. La ville attire des développeurs et ingénieurs talentueux du monde entier.",
+    "toronto": "Toronto, Canada",
+    "toronto_description": "Toronto abrite Citizen Lab, un centre de recherche qui analyse les menaces pesant sur les droits humains à l'ère numérique. La ville est également un pôle majeur pour le développement de l'intelligence artificielle et des technologies de pointe.",
+    "svalbard": "Svalbard, Norvège",
+    "svalbard_description": "Svalbard, un archipel situé dans l'océan Arctique, abrite la Réserve mondiale de semences. Ce coffre-fort unique en son genre stocke les semences des cultures essentielles à l'humanité, garantissant la biodiversité alimentaire mondiale face aux catastrophes naturelles, aux conflits humains et au changement climatique.",
+    "norway": "Norvège",
+    "norway_description": "La Norvège est leader mondial dans le recyclage des bouteilles en plastique, avec un taux de recyclage de 97% grâce à son système innovant panteordning. Cette technologie avancée réduit les déchets plastiques et inspire des pratiques durables à l'échelle internationale.",
+    "cape_town": "Le Cap, Afrique du Sud",
+    "cape_town_description": "Le Cap n'est pas seulement une destination touristique célèbre, mais aussi un centre d'innovation technologique sur le continent africain. La ville abrite de nombreuses start-ups technologiques travaillant sur des solutions dans les énergies renouvelables et l'agriculture numérique.",
+    "kigali": "Kigali, Rwanda",
+    "kigali_description": "Kigali est surnommée le 'Singapour de l'Afrique' en raison de son approche moderne de l'urbanisme et de la technologie. La ville a mis en place des systèmes de gestion des déchets et des technologies de transport public avancées, comme les motos-taxis électriques.",
+    "nairobi": "Nairobi, Kenya",
+    "nairobi_description": "Nairobi, connue sous le nom de 'Silicon Savannah', est un centre de fintech en Afrique. La ville a été pionnière dans l'introduction de systèmes de paiement mobile comme M-Pesa, révolutionnant la gestion financière dans la région."
+  },
+
+  "aboutMe": {
+    "title": "À propos de moi",
+    "descriptionStart": "Bonjour ! Je m'appelle",
+    "name": "Kamil Lukas Gorny",
+    "descriptionMiddle": "et je suis un passionné de technologie combinant des intérêts en cybersécurité, programmation bas niveau, intelligence artificielle (y compris les modèles LLM) et rétro-ingénierie. Actuellement, j'étudie les mathématiques au niveau R2 pour me préparer à",
+    "computerScience": "l'informatique",
+    "pagePurpose": "Ce site est une collection d'informations que j'ai rassemblées sur des sujets qui m'intéressent. Il démontre également mes connaissances en JavaScript et React, car je l'ai construit de zéro sans utiliser de modèles.",
+    "coursesTitle": "Cours que j'ai terminés",
+    "courses": {
+      "powershellBeginner": "Tutoriel PowerShell Débutant - Cours complet – 6 heures en ligne",
+      "powershellBeginnerLink": "https://www.youtube.com/watch?v=LVuI9d-k9C6A",
+      "powershellIntermediate": "PowerShell : du débutant au développeur de scripts – 11 heures en ligne",
+      "powershellIntermediateLink": "https://www.udemy.com/certificate/UC-10b08877-27be-4fe1-b7d5-8cc3c51ebf4a/",
+      "powershellAdvanced": "PowerShell Avancé",
+      "powershellAdvancedLink": "https://www.udemy.com/certificate/UC-3d2f6b06-b10d-4e9a-acf8-fdf9ca116538/",
+      "comptia": "CompTIA A+ - Cours complet – 31 heures en ligne",
+      "comptiaLink": "https://www.youtube.com/watch?v=IC7XXNKJAYs",
+      "pythonBootcamp": "100 Days of Code : Le Bootcamp Python Complet – 58 heures en ligne",
+      "pythonBootcampLink": "https://www.udemy.com/course/100-days-of-code/learn/lecture/23154980#overview",
+      "cybersecurity1": "Le Cours Complet de Cybersécurité | V1",
+      "cybersecurity1Details": "Certificat : Nathan House BSc. Numéro de certificat 1-2875424334",
+      "cybersecurity1Link": "https://funkweb.udemy.com/certificate/UC-009f971d-6af6-471d-85b5-54329e501f06/",
+      "cybersecurity2": "Le Cours Complet de Cybersécurité | V2",
+      "cybersecurity2Details": "Certificat : Nathan House BSc. Numéro de certificat 2-2875424334",
+      "cybersecurity2Link": "https://funkweb.udemy.com/certificate/UC-1e406f53-825a-499b-a430-7c40b6025399/",
+      "linux": "Linux pour débutants",
+      "linuxLink": "https://www.udemy.com/certificate/UC-b7808161-a224-42ac-a91d-93917d5caeb/",
+      "javascriptExpert": "Le Cours Complet de JavaScript 2024 : Du Débutant à l'Expert ! – 68.5 heures totales",
+      "javascriptExpertLink": "https://funkweb.udemy.com/certificate/UC-7945af24-5b63-4bc2-94d7-807eecaee128/",
+      "viewCourseLink": "Voir le cours",
+      "viewCertificateLink": "Voir le certificat"
+    },
+    "beyondTechnologyTitle": "Au-delà de la technologie",
+    "beyondTechnologyDescription": "En dehors de la technologie, j'aime passer mon temps de manière active. Le snowboard et la randonnée en montagne sont mes moyens préférés pour me détendre et me ressourcer. Pendant mon temps libre, j'aime lire des livres ou explorer le monde qui m'entoure, en puisant de l'inspiration dans chaque expérience."
+  }
+}

@@ -1,0 +1,149 @@
+.body-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 140px;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+.image-wrapper {
+  flex: 1 1 calc(33.33% - 40px);
+  max-width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  cursor: pointer;
+}
+
+.body-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.9;
+}
+
+.body-image:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.image-label {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-description {
+  font-size: 18px;
+  color: #cccccc;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .image-wrapper {
+    flex: 1 1 calc(50% - 20px);
+    gap: 20px;
+  }
+
+  .image-label {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 968px) {
+  .image-wrapper {
+    flex: 1 1 50%;
+    max-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    gap: 0;
+  }
+
+  .body-images {
+    gap: 15px;
+    padding-top: 60px;
+  }
+
+  .body-image {
+    max-width: 180px;
+  }
+
+  .image-label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .body-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px 40px;
+    padding-top: 5px;
+  }
+
+  .image-wrapper {
+    flex: 1 1 50%;
+    max-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    gap: 0;
+  }
+
+  .body-image {
+    max-width: 140px;
+    height: auto;
+    margin-bottom: 1px;
+  }
+
+  .image-label {
+    font-size: 16px;
+    margin-bottom: 1px;
+  }
+
+  .image-description {
+    font-size: 14px;
+    color: #cccccc;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1px;
+  }
+
+  .leaflet-container {
+    margin-top: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: 300px; /* Zmniejszona wysokość kontenera mapy */
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

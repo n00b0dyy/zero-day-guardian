@@ -1,0 +1,73 @@
+.menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.menu-list {
+  font-weight: 500;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  width: 270px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.menu-list.open {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.menu-list li {
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.8);
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.menu-list li:first-child {
+  margin-top: 20px;
+}
+
+.menu-list li:last-child {
+  border-bottom: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.menu-link:hover {
+  color: #007bff;
+}
+
+@media (max-width: 480px) {
+  .menu-list {
+    left: 0;
+    width: 140%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu-list {
+    left: 0;
+  }
+}
