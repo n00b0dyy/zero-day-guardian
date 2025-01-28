@@ -12,6 +12,7 @@ const ArticleList = ({ menuCategory }) => {
       try {
         const response = await fetch(`/data/articles.${i18n.language}.json`);
         const data = await response.json();
+        console.log("Fetched articles:", data); // Debug: log loaded articles
         setArticles(data);
       } catch (error) {
         console.error("Error fetching articles:", error);
@@ -21,13 +22,20 @@ const ArticleList = ({ menuCategory }) => {
     fetchArticles();
   }, [i18n.language]);
 
+  if (!menuCategory) {
+    console.warn("Invalid menuCategory provided.");
+    return <p>Invalid category provided.</p>;
+  }
+
   const filteredArticles = articles.filter(
-    article => article.category.trim() === menuCategory.trim()
+    article =>
+      article.category.trim().toLowerCase() ===
+      menuCategory.trim().toLowerCase()
   );
 
   return (
     <div className="article-list">
-      <h2 className="category-title">{menuCategory}</h2>{" "}
+      <h2 className="category-title">{menuCategory}</h2>
       {filteredArticles.length > 0 ? (
         filteredArticles.map(article => (
           <Link
@@ -48,7 +56,7 @@ const ArticleList = ({ menuCategory }) => {
           </Link>
         ))
       ) : (
-        <p>Brak artykułów w tej kategorii.</p>
+        <p>No articles available in this category.</p>
       )}
     </div>
   );

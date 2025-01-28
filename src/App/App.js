@@ -132,6 +132,7 @@ function App() {
           }
         />
 
+        {/* Menu1 Routes */}
         <Route
           path="/algorithms"
           element={
@@ -172,6 +173,40 @@ function App() {
             </Suspense>
           }
         />
+
+        {/* Menu2 Routes */}
+        <Route
+          path="/artificial-intelligence"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <ArticleList menuCategory="Artificial Intelligence" />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/hacking"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <ArticleList menuCategory="Hacking" />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/apis"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <ArticleList menuCategory="APIs" />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/blockchain-and-crypto"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <ArticleList menuCategory="Blockchain and Crypto" />
+            </Suspense>
+          }
+        />
         <Route
           path="/quantum-computing"
           element={
@@ -180,7 +215,6 @@ function App() {
             </Suspense>
           }
         />
-        <Route path="/about-me" element={<AboutMe />} />
         <Route
           path="/przemysl-4-0-i-iot"
           element={
@@ -190,6 +224,7 @@ function App() {
           }
         />
 
+        {/* Article Details Route */}
         <Route
           path="/articles/:id"
           element={
@@ -198,6 +233,9 @@ function App() {
             </Suspense>
           }
         />
+
+        {/* About Me Route */}
+        <Route path="/about-me" element={<AboutMe />} />
       </Routes>
 
       <Footer />

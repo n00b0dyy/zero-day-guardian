@@ -13,7 +13,7 @@
   },
   "menu2": {
     "artificialIntelligence": "Sztuczna Inteligencja",
-    "hacking": "Hacking",
+    "hacking": "Hackowanie",
     "apis": "APIs",
     "blockchainCrypto": "Blockchain i Kryptowaluty",
     "quantumComputing": "Obliczenia Kwantowe",
@@ -72,13 +72,22 @@
     "date": "2025-01-14"
   },
   "5": {
-    "category": "Geometria i Analiza Matematyczna",
-    "subcategory": "Nauka",
-    "title": "Nowa geometria: jak kształt 'Einstein' tworzy nigdy niepowtarzający się wzór",
-    "content": "Kształt 'Einstein' to przełom w matematyce, który umożliwia pokrycie płaszczyzny nieskończonym, niepowtarzalnym wzorem.",
+    "category": "Geometry and Mathematical Analysis",
+    "subcategory": "Science",
+    "title": "New Geometry: How the 'Einstein' Shape Creates a Never-Repeating Pattern",
+    "content": "The 'Einstein' shape is a breakthrough in mathematics that allows the plane to be covered with an infinite, non-repeating pattern.",
     "image": "/images/articles/einstein.png",
     "author": "N00b0dy",
     "date": "2025-01-15"
+  },
+  "6": {
+    "category": "Hacking",
+    "subcategory": "Technologia",
+    "title": "Massive VPN Password Leak on the Dark Web",
+    "content": "<h2>Olbrzymi wyciek haseł VPN na darknecie: zagrożenie globalne</h2>",
+    "image": "/images/articles/einstein.png",
+    "author": "N00b0dy",
+    "date": "2025-01-22"
   },
   "map": {
     "silicon_valley": "Dolina Krzemowa",
