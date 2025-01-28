@@ -31,6 +31,10 @@
   position: absolute;
   top: 30px;
   left: 30px;
+  max-width: 200px;
+  max-height: 0px;
+  color: #000000;
+  z-index: 0;
 }
 
 .socials-icons {
@@ -64,12 +68,21 @@
 .courses-list li {
   margin-bottom: 20px;
   font-size: 1.1em;
+  display: flex;
+  flex-direction: column; /* Przenosi linki na nową linię */
+  gap: 5px;
+}
+
+.courses-list li .course-title {
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .courses-list a {
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
+  margin-top: 5px; /* Dodanie odstępu od tytułu kursu */
 }
 
 .courses-list a:hover {
@@ -95,6 +108,15 @@
   .social-icon {
     font-size: 1.2rem;
   }
+
+  .courses-list li {
+    font-size: 1rem;
+    gap: 3px;
+  }
+
+  .courses-list a {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -119,5 +141,14 @@
 
   .social-icon {
     font-size: 1rem;
+  }
+
+  .courses-list li {
+    font-size: 0.8rem;
+    gap: 2px;
+  }
+
+  .courses-list a {
+    font-size: 0.8rem;
   }
 }

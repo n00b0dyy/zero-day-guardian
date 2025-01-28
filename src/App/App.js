@@ -234,7 +234,6 @@ function App() {
           }
         />
 
-        {/* About Me Route */}
         <Route path="/about-me" element={<AboutMe />} />
       </Routes>
 
