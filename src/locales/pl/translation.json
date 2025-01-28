@@ -123,8 +123,8 @@
     "title": "O mnie",
     "descriptionStart": "Cześć! Mam na imię",
     "name": "Kamil Łukasz Górny",
-    "descriptionMiddle": "i jestem pasjonatem technologii, łączącym zainteresowania w zakresie cyberbezpieczeństwa, programowania niskopoziomowego, sztucznej inteligencji (w tym modeli LLM) oraz reverse engineeringu. Obecnie uczę się matematyki na poziomie R2, aby przygotować się do",
-    "computerScience": "informatyki",
+    "descriptionMiddle": "i jestem pasjonatem technologii, łączącym zainteresowania w zakresie cyberbezpieczeństwa, programowania niskopoziomowego, sztucznej inteligencji (w tym modeli LLM) oraz reverse engineeringu. Obecnie uczę się matematyki na poziomie R2, aby przygotować się do studiowania",
+    "computerScience": "data science",
     "pagePurpose": "Ta strona to zbiór informacji, które zgromadziłem na tematy, które mnie interesują. Pokazuje również moją znajomość JavaScript i React, ponieważ stworzyłem ją od podstaw, bez korzystania z szablonów.",
     "coursesTitle": "Kursy, które ukończyłem",
     "courses": {
