@@ -5,82 +5,83 @@ import "./RecommendedTools.css";
 const recommendedItems = [
   {
     id: "chatgpt",
-    logo: "/images/chatgpt-logo.png",
+    logo: "/images/RecommendedToolsImages/ChatGPT_logo.svg",
     link: "https://openai.com/chatgpt/",
   },
   {
     id: "githubCopilot",
-    logo: "/images/github-copilot-logo.png",
+    logo: "/images/RecommendedToolsImages/coopilot.svg",
     link: "https://github.com/features/copilot",
   },
   {
     id: "figma",
-    logo: "/images/figma-logo.png",
+    logo: "/images/RecommendedToolsImages/figma-logo-svgrepo-com.svg",
     link: "https://www.figma.com/",
   },
   {
     id: "canva",
-    logo: "/images/canva-logo.png",
+    logo: "/images/RecommendedToolsImages/canva-svgrepo-com.svg",
+
     link: "https://www.canva.com/",
   },
   {
     id: "mdnFigure",
-    logo: "/images/mdn-logo.png",
+    logo: "/images/RecommendedToolsImages/MDN_Web_Docs-Logo.wine.svg",
     link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure#browser_compatibility",
   },
   {
     id: "deWatermark",
-    logo: "/images/dewatermark-logo.png",
+    logo: "/images/RecommendedToolsImages/dewatermark.svg",
     link: "https://dewatermark.ai/upload",
   },
   {
     id: "tinypng",
-    logo: "/images/tinypng-logo.png",
+    logo: "/images/RecommendedToolsImages/tinypng.svg",
     link: "https://tinypng.com/",
   },
   {
     id: "ezgif",
-    logo: "/images/ezgif-logo.png",
+    logo: "/images/RecommendedToolsImages/ezgif.svg",
     link: "https://ezgif.com/",
   },
   {
     id: "webaim",
-    logo: "/images/webaim-logo.png",
+    logo: "/images/RecommendedToolsImages/webaim.svg",
     link: "https://webaim.org/resources/contrastchecker/",
   },
   {
     id: "uigoodies",
-    logo: "/images/uigoodies-logo.png",
+    logo: "/images/RecommendedToolsImages/uigoodies.svg",
     link: "https://uigoodies.com/",
   },
   {
     id: "imagetotext",
-    logo: "/images/imagetotext-logo.png",
+    logo: "/images/RecommendedToolsImages/imagetotext.svg",
     link: "https://www.imagetotext.info/",
   },
   {
     id: "coolors",
-    logo: "/images/coolors-logo.png",
+    logo: "/images/RecommendedToolsImages/coolors.svg",
     link: "https://coolors.co/",
   },
   {
     id: "htmlColorCodes",
-    logo: "/images/htmlcolorcodes-logo.png",
+    logo: "/images/RecommendedToolsImages/colors html.svg",
     link: "https://html-color-codes.info/",
   },
   {
     id: "pdf2docx",
-    logo: "/images/pdf2docx-logo.png",
+    logo: "/images/RecommendedToolsImages/pdf2docs.svg",
     link: "https://pdf2docx.com/",
   },
   {
     id: "smodin",
-    logo: "/images/smodin-logo.png",
+    logo: "/images/RecommendedToolsImages/smodin.svg",
     link: "https://smodin.io/",
   },
   {
     id: "patorjk",
-    logo: "/images/patorjk-logo.png",
+    logo: "/images/RecommendedToolsImages/patorjk.svg",
     link: "https://patorjk.com/",
   },
 ];

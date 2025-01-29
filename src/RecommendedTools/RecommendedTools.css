@@ -6,7 +6,7 @@
 
 .recommended-tools h2 {
   font-size: 2.5rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 3.25rem;
 }
 
 .tools-list {
@@ -49,6 +49,7 @@
 
 .tool-price {
   display: block;
+  font-size: 1.175rem;
   font-weight: bold;
   color: #007bff;
   margin-top: 0.625rem;
