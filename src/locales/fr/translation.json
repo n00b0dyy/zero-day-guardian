@@ -141,5 +141,74 @@
     },
     "beyondTechnologyTitle": "Au-delà de la technologie",
     "beyondTechnologyDescription": "En dehors de la technologie, j'aime passer mon temps de manière active. Le snowboard et la randonnée en montagne sont mes moyens préférés pour me détendre et me ressourcer. Pendant mon temps libre, j'aime lire des livres ou explorer le monde qui m'entoure, en puisant de l'inspiration dans chaque expérience."
+  },
+  "privacyPolicy": {
+    "title": "Politique de confidentialité",
+    "introduction": "Votre vie privée est importante pour nous. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos données personnelles lorsque vous utilisez nos services. En accédant à notre site web et en utilisant nos services, vous acceptez la collecte et l'utilisation des informations conformément à cette politique.",
+    "dataCollection": {
+      "title": "Collecte de données",
+      "description": "Nous collectons des données personnelles de diverses manières, notamment via des formulaires que vous soumettez, des cookies et le suivi de l'utilisation. Les types de données personnelles que nous collectons peuvent inclure votre nom, adresse e-mail, numéro de téléphone, adresse IP et des informations sur votre utilisation de notre site web.",
+      "methods": {
+        "forms": "Nous collectons des données que vous nous fournissez directement via des formulaires sur notre site web.",
+        "cookies": "Les cookies sont de petits fichiers stockés sur votre appareil qui nous aident à suivre vos préférences et vos habitudes d'utilisation.",
+        "usageTracking": "Nous collectons des informations sur la manière dont vous utilisez notre site web, telles que les pages que vous visitez, le temps passé sur chaque page et les liens que vous cliquez."
+      }
+    },
+    "dataUsage": {
+      "title": "Utilisation des données",
+      "description": "Nous utilisons vos données personnelles pour les fins suivantes : fournir et améliorer nos services, communiquer avec vous concernant votre compte ou des mises à jour de nos services, personnaliser votre expérience, analyser les tendances et surveiller l'efficacité de notre site web.",
+      "purposes": {
+        "serviceProvision": "Nous utilisons vos données pour fournir les services que vous demandez et pour nous assurer que notre site fonctionne correctement.",
+        "communication": "Nous pouvons vous contacter avec des mises à jour, des offres ou des informations importantes liées à nos services.",
+        "personalization": "Nous pouvons personnaliser le contenu, les publicités et l'expérience utilisateur en fonction de vos préférences et de vos habitudes d'utilisation.",
+        "analytics": "Nous analysons les données pour mieux comprendre le comportement des utilisateurs et améliorer notre site web et nos services."
+      }
+    },
+    "dataProtection": {
+      "title": "Protection des données",
+      "description": "Nous nous engageons à protéger vos données personnelles. Nous mettons en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger vos informations contre l'accès non autorisé, la modification, la divulgation ou la destruction. Ces mesures incluent le cryptage, les pare-feu et une infrastructure de serveurs sécurisée.",
+      "securityMeasures": {
+        "encryption": "Toutes les informations sensibles sont transmises de manière sécurisée à l'aide de protocoles de cryptage tels que SSL/TLS.",
+        "accessControl": "Nous limitons l'accès à vos données personnelles aux seuls membres du personnel autorisés, et nous nous assurons qu'ils sont formés à l'importance de la sécurité des données.",
+        "dataRetention": "Nous conservons vos données personnelles uniquement pendant la durée nécessaire aux fins énoncées dans cette politique, après quoi elles seront supprimées ou anonymisées de manière sécurisée."
+      }
+    },
+    "cookies": {
+      "title": "Cookies",
+      "description": "Nous utilisons des cookies pour améliorer votre expérience utilisateur, analyser l'utilisation du site et fournir du contenu personnalisé. Les cookies sont de petits fichiers texte qui sont placés sur votre appareil pour suivre vos préférences et votre utilisation. Vous pouvez contrôler et gérer les cookies via les paramètres de votre navigateur, y compris les bloquer ou les supprimer.",
+      "types": {
+        "essential": "Ces cookies sont nécessaires au bon fonctionnement du site web et ne peuvent pas être désactivés.",
+        "performance": "Ces cookies nous aident à comprendre comment les visiteurs utilisent notre site web, ce qui nous permet d'améliorer la fonctionnalité et l'expérience utilisateur.",
+        "advertising": "Ces cookies suivent vos habitudes de navigation et peuvent être utilisés pour afficher des publicités personnalisées en fonction de vos intérêts."
+      }
+    },
+    "userRights": {
+      "title": "Droits des utilisateurs",
+      "description": "Vous avez certains droits concernant vos données personnelles. Vous pouvez accéder, mettre à jour ou supprimer vos données personnelles à tout moment. Vous avez également le droit de vous opposer à ou de restreindre certaines activités de traitement, ainsi que le droit à la portabilité des données.",
+      "rights": {
+        "access": "Vous pouvez demander une copie des données personnelles que nous détenons à votre sujet.",
+        "correction": "Vous pouvez corriger toute donnée personnelle inexacte ou incomplète que nous détenons à votre sujet.",
+        "deletion": "Vous pouvez demander que nous supprimions vos données personnelles, sous réserve de certaines limitations légales.",
+        "restriction": "Vous pouvez demander que nous limitions le traitement de vos données personnelles dans certaines circonstances.",
+        "portability": "Vous pouvez demander que nous transférions vos données personnelles à une autre organisation, dans un format structuré, couramment utilisé et lisible par machine."
+      },
+      "howToExerciseRights": "Pour exercer l'un de ces droits, veuillez nous contacter à [adresse e-mail] ou via le formulaire de contact sur notre site web."
+    },
+    "thirdPartySharing": {
+      "title": "Partage avec des tiers",
+      "description": "Nous ne vendons pas et ne partageons pas vos données personnelles avec des tiers à des fins de marketing. Cependant, nous pouvons partager vos données avec des prestataires de services tiers de confiance qui nous aident à exploiter notre site web, à mener nos activités ou à vous fournir des services, sous des accords de confidentialité stricts. Nous pouvons également divulguer vos données si la loi l'exige ou en réponse à des demandes légales."
+    },
+    "dataTransfers": {
+      "title": "Transferts de données",
+      "description": "Vos données personnelles peuvent être transférées et stockées sur des ordinateurs situés en dehors de votre pays de résidence, où les lois de protection des données peuvent différer. En utilisant nos services, vous consentez au transfert de vos données vers des pays qui ne fournissent peut-être pas le même niveau de protection que votre pays d'origine."
+    },
+    "changes": {
+      "title": "Modifications de la politique",
+      "description": "Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. Toute modification sera publiée sur cette page et la politique mise à jour sera effective dès sa publication. Nous vous recommandons de revoir périodiquement cette politique pour rester informé sur la manière dont nous protégeons vos données."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Si vous avez des questions concernant cette politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter à zerodayguardian@proton.me."
+    }
   }
 }

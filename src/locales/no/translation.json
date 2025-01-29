@@ -92,7 +92,7 @@
     "toronto": "Toronto, Canada",
     "toronto_description": "Toronto er hjemsted for Citizen Lab, en forskningsenhet som studerer trusler mot menneskerettigheter i den digitale tidsalderen. Byen er også et ledende senter for utvikling av kunstig intelligens og ny teknologi.",
     "svalbard": "Svalbard, Norge",
-    "svalbard_description": "Svalbard, en øygruppe i Polhavet, er hjemmet til Globalt Frøbank, en verdensomspennende sikkerhetskopi som bevarer frø fra verdens viktigste avlinger. Designet for å tåle naturkatastrofer, klimaendringer og menneskeskapte konflikter, sikrer Seed Vault global matsikkerhet ved å beskytte biodiversiteten.",
+    "svalbard_description": "Svalbard, en øygruppe i Polhavet, er hjemmet til Globalt Frøbank.",
     "norway": "Oslo, Norge",
     "norway_description": "Norge er verdensledende innen resirkulering av plastflasker, med en resirkuleringsrate på 97 % takket være det innovative panteordning-systemet. Denne teknologien bidrar til å redusere plastavfall og fremmer bærekraftige praksiser globalt.",
     "cape_town": "Cape Town, Sør-Afrika",
@@ -136,5 +136,74 @@
     },
     "beyondTechnologyTitle": "Utenfor teknologi",
     "beyondTechnologyDescription": "Utenfor teknologiverdenen elsker jeg å bruke tiden aktivt. Snowboard og fjellvandring er mine favorittmåter å slappe av og lade opp. På fritiden liker jeg å lese bøker eller utforske verden rundt meg, og hente inspirasjon fra hver opplevelse."
+  },
+  "privacyPolicy": {
+    "title": "Personvernpolitikk",
+    "introduction": "Personvernet ditt er viktig for oss. Denne personvernpolitikken forklarer hvordan vi samler inn, bruker og beskytter dine personlige data når du bruker tjenestene våre. Ved å få tilgang til eller bruke nettstedet vårt og tjenestene våre, samtykker du til innsamling og bruk av informasjon i samsvar med denne politikken.",
+    "dataCollection": {
+      "title": "Datainnsamling",
+      "description": "Vi samler inn personopplysninger på ulike måter, inkludert gjennom skjemaer du sender inn, informasjonskapsler og bruksoppfølging. Typene personopplysninger vi samler inn kan omfatte navnet ditt, e-postadresse, telefonnummer, IP-adresse og informasjon om hvordan du bruker nettstedet vårt.",
+      "methods": {
+        "forms": "Vi samler inn data som du gir oss direkte gjennom skjemaer på nettstedet vårt.",
+        "cookies": "Informasjonskapsler er små filer som lagres på enheten din som hjelper oss å spore preferansene dine og bruks mønstre.",
+        "usageTracking": "Vi samler inn informasjon om hvordan du bruker nettstedet vårt, for eksempel sidene du besøker, hvor lenge du er på hver side, og hvilke lenker du klikker på."
+      }
+    },
+    "dataUsage": {
+      "title": "Bruk av data",
+      "description": "Vi bruker dine personlige data til følgende formål: for å tilby og forbedre tjenestene våre, kommunisere med deg om kontoen din eller oppdateringer av tjenestene våre, personalisere opplevelsen din, analysere trender og overvåke effektiviteten til nettstedet vårt.",
+      "purposes": {
+        "serviceProvision": "Vi bruker dataene dine for å levere tjenestene du etterspør og sikre at nettstedet vårt fungerer som det skal.",
+        "communication": "Vi kan kontakte deg med oppdateringer, tilbud eller viktig informasjon relatert til tjenestene våre.",
+        "personalization": "Vi kan tilpasse innhold, annonser og brukeropplevelsen basert på preferansene og bruks mønstrene dine.",
+        "analytics": "Vi analyserer dataene for bedre å forstå brukeratferd og forbedre nettstedet vårt og tjenestene våre."
+      }
+    },
+    "dataProtection": {
+      "title": "Databeskyttelse",
+      "description": "Vi er forpliktet til å beskytte personopplysningene dine. Vi implementerer bransjestandard sikkerhetstiltak for å beskytte informasjonen din mot uautorisert tilgang, endring, avsløring eller ødeleggelse. Disse tiltakene inkluderer kryptering, brannmurer og sikker serverinfrastruktur.",
+      "securityMeasures": {
+        "encryption": "All sensitiv informasjon overføres sikkert ved hjelp av krypteringsprotokoller som SSL/TLS.",
+        "accessControl": "Vi begrenser tilgangen til dine personlige data til autorisert personale, og sørger for at de er opplært om viktigheten av datasikkerhet.",
+        "dataRetention": "Vi beholder dine personlige data kun så lenge det er nødvendig for formålene som er beskrevet i denne politikken, og etter det vil de bli trygt slettet eller anonymisert."
+      }
+    },
+    "cookies": {
+      "title": "Informasjonskapsler",
+      "description": "Vi bruker informasjonskapsler for å forbedre brukeropplevelsen din, analysere bruken av nettstedet og tilby personlig tilpasset innhold. Informasjonskapsler er små tekstfiler som plasseres på enheten din for å spore preferanser og bruken din. Du kan kontrollere og administrere informasjonskapsler gjennom nettleserinnstillingene, inkludert blokkering eller sletting.",
+      "types": {
+        "essential": "Disse informasjonskapslene er nødvendige for at nettstedet skal fungere riktig og kan ikke deaktiveres.",
+        "performance": "Disse informasjonskapslene hjelper oss å forstå hvordan besøkende bruker nettstedet vårt, slik at vi kan forbedre funksjonalitet og brukeropplevelse.",
+        "advertising": "Disse informasjonskapslene sporer nettlesingsvanene dine og kan brukes til å vise tilpassede annonser basert på interessene dine."
+      }
+    },
+    "userRights": {
+      "title": "Brukerrettigheter",
+      "description": "Du har visse rettigheter angående dine personlige data. Du kan når som helst få tilgang til, oppdatere eller slette dine personlige data. Du har også rett til å motsette deg eller begrense visse behandlingsaktiviteter, samt rett til dataportabilitet.",
+      "rights": {
+        "access": "Du kan be om en kopi av de personlige dataene vi har om deg.",
+        "correction": "Du kan rette eventuelle unøyaktige eller ufullstendige personopplysninger vi har om deg.",
+        "deletion": "Du kan be om at vi sletter dine personlige data, med visse juridiske begrensninger.",
+        "restriction": "Du kan be om at vi begrenser behandlingen av dine personlige data under visse omstendigheter.",
+        "portability": "Du kan be om at vi overfører dine personlige data til en annen organisasjon, i et strukturert, vanlig brukt og maskinlesbart format."
+      },
+      "howToExerciseRights": "For å utøve noen av disse rettighetene, vennligst kontakt oss på [e-postadresse] eller gjennom kontaktskjemaet på nettstedet vårt."
+    },
+    "thirdPartySharing": {
+      "title": "Deling med tredjeparter",
+      "description": "Vi selger ikke og deler ikke dine personlige data med tredjeparter for deres egne markedsføringsformål. Imidlertid kan vi dele dataene dine med pålitelige tredjeparts tjenesteleverandører som hjelper oss med å drifte nettstedet vårt, drive virksomheten vår eller betjene deg, under strenge konfidensialitetsavtaler. Vi kan også avsløre dataene dine dersom det kreves av loven eller som svar på juridiske forespørsler."
+    },
+    "dataTransfers": {
+      "title": "Datatransfer",
+      "description": "Dine personlige data kan bli overført og lagret på datamaskiner som ligger utenfor ditt bostedsland, der lovgivningen for databeskyttelse kan være annerledes. Ved å bruke tjenestene våre samtykker du til overføring av dataene dine til land som kanskje ikke gir samme nivå av beskyttelse som hjemlandet ditt."
+    },
+    "changes": {
+      "title": "Endringer i policy",
+      "description": "Vi kan oppdatere denne personvernpolitikken fra tid til annen. Eventuelle endringer vil bli publisert på denne siden, og den oppdaterte politikken vil tre i kraft så snart den er publisert. Vi anbefaler at du regelmessig gjennomgår denne politikken for å holde deg informert om hvordan vi beskytter dataene dine."
+    },
+    "contact": {
+      "title": "Kontakt oss",
+      "description": "Hvis du har spørsmål om denne personvernpolitikken eller våre datapraksiser, vennligst kontakt oss på zerodayguardian@proton.me."
+    }
   }
 }

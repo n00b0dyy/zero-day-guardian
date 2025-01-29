@@ -109,7 +109,7 @@
     "toronto": "Toronto, Kanada",
     "toronto_description": "Toronto to siedziba Citizen Lab, które bada zagrożenia dla praw człowieka w erze cyfrowej. Miasto jest także ważnym centrum rozwoju sztucznej inteligencji i nowych technologii.",
     "svalbard": "Svalbard, Norwegia",
-    "svalbard_description": "Svalbard, archipelag położony w Oceanie Arktycznym, jest domem dla Globalnego Banku Nasion. To wyjątkowe miejsce przechowuje nasiona najważniejszych roślin uprawnych świata, zapewniając ich ochronę przed katastrofami naturalnymi, zmianami klimatu i konfliktami zbrojnymi.",
+    "svalbard_description": "Svalbard, archipelag położony w Oceanie Arktycznym, jest domem dla Globalnego Banku Nasion.",
     "norway": "Norwegia",
     "norway_description": "Norwegia jest światowym liderem w recyklingu plastikowych butelek, osiągając 97% skuteczności dzięki innowacyjnemu systemowi panteordning. Ta technologia zmniejsza ilość odpadów plastikowych i promuje zrównoważone praktyki na całym świecie.",
     "cape_town": "Kapsztad, Republika Południowej Afryki",
@@ -153,5 +153,75 @@
     },
     "beyondTechnologyTitle": "Poza technologią",
     "beyondTechnologyDescription": "Poza światem technologii uwielbiam spędzać czas aktywnie. Snowboard i wędrówki górskie to moje ulubione formy relaksu i odpoczynku. W wolnym czasie lubię czytać książki lub eksplorować otaczający mnie świat, czerpiąc inspirację z każdego doświadczenia."
+  },
+
+  "privacyPolicy": {
+    "title": "Polityka Prywatności",
+    "introduction": "Twoja prywatność jest dla nas ważna. Niniejsza polityka prywatności wyjaśnia, w jaki sposób zbieramy, wykorzystujemy i chronimy Twoje dane osobowe podczas korzystania z naszych usług. Korzystając z naszej strony internetowej i usług, zgadzasz się na zbieranie i wykorzystywanie informacji zgodnie z tą polityką.",
+    "dataCollection": {
+      "title": "Zbieranie Danych",
+      "description": "Zbieramy dane osobowe na różne sposoby, w tym poprzez formularze, ciasteczka i śledzenie użytkowania. Typy danych osobowych, które zbieramy, mogą obejmować Twoje imię, adres e-mail, numer telefonu, adres IP oraz informacje o Twoim korzystaniu z naszej strony internetowej.",
+      "methods": {
+        "forms": "Zbieramy dane, które przekazujesz nam bezpośrednio za pośrednictwem formularzy na naszej stronie internetowej.",
+        "cookies": "Ciasteczka to małe pliki przechowywane na Twoim urządzeniu, które pomagają nam śledzić Twoje preferencje i wzorce użytkowania.",
+        "usageTracking": "Zbieramy informacje o tym, jak korzystasz z naszej strony internetowej, takie jak strony, które odwiedzasz, czas spędzony na każdej stronie i klikane linki."
+      }
+    },
+    "dataUsage": {
+      "title": "Wykorzystanie Danych",
+      "description": "Wykorzystujemy Twoje dane osobowe w następujących celach: świadczenie i poprawa naszych usług, komunikacja z Tobą w sprawach związanych z Twoim kontem lub aktualizacjami naszych usług, personalizacja doświadczeń, analiza trendów i monitorowanie efektywności naszej strony internetowej.",
+      "purposes": {
+        "serviceProvision": "Wykorzystujemy Twoje dane, aby dostarczać usługi, które zamówiłeś, i zapewniać prawidłowe działanie naszej strony internetowej.",
+        "communication": "Możemy skontaktować się z Tobą z aktualizacjami, ofertami lub ważnymi informacjami dotyczącymi naszych usług.",
+        "personalization": "Możemy personalizować treści, reklamy i doświadczenia użytkownika w oparciu o Twoje preferencje i wzorce użytkowania.",
+        "analytics": "Analizujemy dane, aby lepiej zrozumieć zachowanie użytkowników i ulepszyć naszą stronę internetową oraz usługi."
+      }
+    },
+    "dataProtection": {
+      "title": "Ochrona Danych",
+      "description": "Zobowiązujemy się do ochrony Twoich danych osobowych. Stosujemy środki bezpieczeństwa zgodne z branżowymi standardami, aby chronić Twoje informacje przed nieautoryzowanym dostępem, zmianą, ujawnieniem lub zniszczeniem. Środki te obejmują szyfrowanie, zapory ogniowe i bezpieczną infrastrukturę serwerową.",
+      "securityMeasures": {
+        "encryption": "Wszystkie wrażliwe informacje są przesyłane bezpiecznie za pomocą protokołów szyfrowania, takich jak SSL/TLS.",
+        "accessControl": "Ograniczamy dostęp do Twoich danych osobowych tylko do upoważnionych osób i zapewniamy, że są one przeszkolone w zakresie ważności bezpieczeństwa danych.",
+        "dataRetention": "Przechowujemy Twoje dane osobowe tylko tak długo, jak jest to konieczne do celów określonych w tej polityce, po czym zostaną one bezpiecznie usunięte lub zanonimizowane."
+      }
+    },
+    "cookies": {
+      "title": "Ciasteczka",
+      "description": "Używamy ciasteczek, aby ulepszyć Twoje doświadczenia użytkownika, analizować korzystanie z naszej strony i dostarczać spersonalizowane treści. Ciasteczka to małe pliki tekstowe, które są umieszczane na Twoim urządzeniu w celu śledzenia Twoich preferencji i użytkowania. Możesz kontrolować i zarządzać ciasteczkami za pomocą ustawień swojej przeglądarki, w tym je blokować lub usuwać.",
+      "types": {
+        "essential": "Te ciasteczka są niezbędne do prawidłowego funkcjonowania strony internetowej i nie mogą być wyłączone.",
+        "performance": "Te ciasteczka pomagają nam zrozumieć, jak odwiedzający korzystają z naszej strony, umożliwiając nam poprawę funkcjonalności i doświadczeń użytkownika.",
+        "advertising": "Te ciasteczka śledzą Twoje nawyki przeglądania i mogą być używane do wyświetlania spersonalizowanych reklam opartych na Twoich zainteresowaniach."
+      }
+    },
+    "userRights": {
+      "title": "Prawa Użytkownika",
+      "description": "Masz pewne prawa dotyczące swoich danych osobowych. Możesz uzyskać dostęp, zaktualizować lub usunąć swoje dane osobowe w dowolnym momencie. Masz również prawo do sprzeciwu lub ograniczenia niektórych czynności przetwarzania, a także prawo do przenoszenia danych.",
+      "rights": {
+        "access": "Możesz poprosić o kopię danych osobowych, które posiadamy na Twój temat.",
+        "correction": "Możesz poprawić wszelkie nieścisłe lub niepełne dane osobowe, które posiadamy na Twój temat.",
+        "deletion": "Możesz poprosić o usunięcie swoich danych osobowych, z zastrzeżeniem pewnych ograniczeń prawnych.",
+        "restriction": "Możesz poprosić o ograniczenie przetwarzania Twoich danych osobowych w określonych okolicznościach.",
+        "portability": "Możesz poprosić o przeniesienie swoich danych osobowych do innej organizacji w ustrukturalizowanym, powszechnie używanym i maszynowo czytelnym formacie."
+      },
+      "howToExerciseRights": "Aby skorzystać z tych praw, skontaktuj się z nami pod [adres e-mail] lub przez formularz kontaktowy na naszej stronie."
+    },
+    "thirdPartySharing": {
+      "title": "Udostępnianie Danych Stronom Trzecim",
+      "description": "Nie sprzedajemy ani nie udostępniamy Twoich danych osobowych stronom trzecim do ich własnych celów marketingowych. Możemy jednak udostępnić Twoje dane zaufanym dostawcom usług, którzy pomagają nam w prowadzeniu naszej strony, realizacji usług lub obsłudze Ciebie, na podstawie umów o zachowaniu poufności. Możemy również ujawnić Twoje dane, jeśli będzie to wymagane przez prawo lub w odpowiedzi na wnioski prawne."
+    },
+    "dataTransfers": {
+      "title": "Transfer Danych",
+      "description": "Twoje dane osobowe mogą być transferowane i przechowywane na komputerach znajdujących się poza Twoim krajem zamieszkania, gdzie przepisy o ochronie danych mogą się różnić. Korzystając z naszych usług, wyrażasz zgodę na transfer Twoich danych do krajów, które mogą nie zapewniać tego samego poziomu ochrony, co Twój kraj."
+    },
+    "changes": {
+      "title": "Zmiany w Polityce",
+      "description": "Możemy od czasu do czasu aktualizować tę politykę prywatności. Wszelkie zmiany będą publikowane na tej stronie, a zaktualizowana polityka wejdzie w życie natychmiast po jej opublikowaniu. Zalecamy okresowe przeglądanie tej polityki, aby być na bieżąco z tym, jak chronimy Twoje dane."
+    },
+    "contact": {
+      "title": "Kontakt z Nami",
+      "description": "Jeśli masz jakiekolwiek pytania dotyczące tej polityki prywatności lub naszych praktyk dotyczących danych, skontaktuj się z nami pod zerodayguardian@proton.me"
+    }
   }
 }

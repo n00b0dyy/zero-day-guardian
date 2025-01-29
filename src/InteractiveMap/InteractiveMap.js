@@ -112,7 +112,7 @@ const InteractiveMap = () => {
       worldBounds.getWest() + pixelToLatLng,
     ],
     [
-      worldBounds.getNorth() - pixelToLatLng,
+      worldBounds.getNorth() + pixelToLatLng * 200,
       worldBounds.getEast() - pixelToLatLng,
     ]
   );

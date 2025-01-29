@@ -109,7 +109,7 @@
       "toronto": "Toronto, Canada",
       "toronto_description": "Toronto is home to Citizen Lab, a research center that investigates threats to human rights in the digital age. The city is also a leading hub for artificial intelligence and cutting-edge technologies.",
       "svalbard": "Svalbard, Norway",
-      "svalbard_description": "Svalbard, an archipelago situated in the Arctic Ocean, is home to the Global Seed Vault, a secure backup facility that preserves the seeds of the world's most vital crops. Designed to withstand natural disasters, climate change, and human conflict, the Seed Vault ensures global food security by safeguarding biodiversity.",
+      "svalbard_description": "Svalbard, an archipelago situated in the Arctic Ocean, is home to the Global Seed Vaul",
       "norway": "Norway",
       "norway_description": "Norway is a global leader in recycling plastic bottles, achieving a 97% recycling rate through its innovative panteordning system. This advanced technology not only reduces plastic waste but also sets an example for sustainable practices worldwide.",
       "cape_town": "Cape Town, South Africa",
@@ -154,6 +154,76 @@
       },
       "beyondTechnologyTitle": "Beyond Technology",
       "beyondTechnologyDescription": "Outside of technology, I enjoy spending my time actively. Snowboarding and mountain hiking are my favorite ways to relax and recharge. In my free time, I like reading books or exploring the world around me, drawing inspiration from every experience."
+    }
+  },
+
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "introduction": "Your privacy is important to us. This privacy policy explains how we collect, use, and protect your personal data when you use our services. By accessing or using our website and services, you agree to the collection and use of information in accordance with this policy.",
+    "dataCollection": {
+      "title": "Data Collection",
+      "description": "We collect personal data in various ways, including through forms you submit, cookies, and usage tracking. The types of personal data we collect may include your name, email address, phone number, IP address, and information about your usage of our website.",
+      "methods": {
+        "forms": "We collect data that you provide directly to us through forms on our website.",
+        "cookies": "Cookies are small files stored on your device that help us track your preferences and usage patterns.",
+        "usageTracking": "We collect information about how you use our website, such as the pages you visit, the time spent on each page, and the links you click."
+      }
+    },
+    "dataUsage": {
+      "title": "Data Usage",
+      "description": "We use your personal data for the following purposes: to provide and improve our services, communicate with you about your account or updates to our services, personalize your experience, analyze trends, and monitor the effectiveness of our website.",
+      "purposes": {
+        "serviceProvision": "We use your data to deliver the services you request and to ensure that our website functions properly.",
+        "communication": "We may contact you with updates, offers, or important information related to our services.",
+        "personalization": "We may personalize content, advertisements, and user experience based on your preferences and usage patterns.",
+        "analytics": "We analyze the data to better understand user behavior and improve our website and services."
+      }
+    },
+    "dataProtection": {
+      "title": "Data Protection",
+      "description": "We are committed to protecting your personal data. We implement industry-standard security measures to safeguard your information from unauthorized access, alteration, disclosure, or destruction. These measures include encryption, firewalls, and secure server infrastructure.",
+      "securityMeasures": {
+        "encryption": "All sensitive information is transmitted securely using encryption protocols such as SSL/TLS.",
+        "accessControl": "We limit access to your personal data to authorized personnel only, and ensure that they are trained on the importance of data security.",
+        "dataRetention": "We retain your personal data only as long as necessary for the purposes outlined in this policy, after which it will be securely deleted or anonymized."
+      }
+    },
+    "cookies": {
+      "title": "Cookies",
+      "description": "We use cookies to enhance your user experience, analyze site usage, and provide personalized content. Cookies are small text files that are placed on your device to track your preferences and usage. You can control and manage cookies through your browser settings, including blocking or deleting them.",
+      "types": {
+        "essential": "These cookies are necessary for the website to function properly and cannot be disabled.",
+        "performance": "These cookies help us understand how visitors use our website, enabling us to improve functionality and user experience.",
+        "advertising": "These cookies track your browsing habits and may be used to display personalized ads based on your interests."
+      }
+    },
+    "userRights": {
+      "title": "User Rights",
+      "description": "You have certain rights regarding your personal data. You can access, update, or delete your personal data at any time. You also have the right to object to or restrict certain processing activities, as well as the right to data portability.",
+      "rights": {
+        "access": "You can request a copy of the personal data we hold about you.",
+        "correction": "You can correct any inaccurate or incomplete personal data we hold about you.",
+        "deletion": "You can request that we delete your personal data, subject to certain legal limitations.",
+        "restriction": "You can request that we limit the processing of your personal data under certain circumstances.",
+        "portability": "You can request that we transfer your personal data to another organization, in a structured, commonly used, and machine-readable format."
+      },
+      "howToExerciseRights": "To exercise any of these rights, please contact us at [email address] or through the contact form on our website."
+    },
+    "thirdPartySharing": {
+      "title": "Sharing with Third Parties",
+      "description": "We do not sell or share your personal data with third parties for their own marketing purposes. However, we may share your data with trusted third-party service providers who assist us in operating our website, conducting business, or servicing you, under strict confidentiality agreements. We may also disclose your data if required by law or in response to legal requests."
+    },
+    "dataTransfers": {
+      "title": "Data Transfers",
+      "description": "Your personal data may be transferred to and maintained on computers located outside your country of residence, where the data protection laws may differ. By using our services, you consent to the transfer of your data to countries that may not provide the same level of protection as your home country."
+    },
+    "changes": {
+      "title": "Changes to Policy",
+      "description": "We may update this privacy policy from time to time. Any changes will be posted on this page, and the updated policy will be effective as soon as it is published. We recommend that you review this policy periodically to stay informed about how we are protecting your data."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions about this privacy policy or our data practices, please contact us at zerodayguardian@proton.me."
     }
   }
 }

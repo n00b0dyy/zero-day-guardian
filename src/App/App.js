@@ -11,6 +11,7 @@ import LogoGlowna5 from "../Body/BodyImages/logo glowna5jpg.webp";
 import LogoGlowna6 from "../Body/BodyImages/logo glowna6.webp";
 import InteractiveMap from "../InteractiveMap/InteractiveMap";
 import AboutMe from "../AboutMe/AboutMe";
+import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy"; // Import komponentu PrivacyPolicy
 
 const ArticleList = lazy(() => import("../Articles/ArticleList"));
 const ArticlePage = lazy(() => import("../Articles/ArticlePage"));
@@ -91,7 +92,6 @@ function App() {
   return (
     <>
       <Header />
-
       <Routes>
         <Route
           path="/"
@@ -131,7 +131,6 @@ function App() {
             </main>
           }
         />
-
         {/* Menu1 Routes */}
         <Route
           path="/algorithms"
@@ -173,7 +172,6 @@ function App() {
             </Suspense>
           }
         />
-
         {/* Menu2 Routes */}
         <Route
           path="/artificial-intelligence"
@@ -223,7 +221,6 @@ function App() {
             </Suspense>
           }
         />
-
         {/* Article Details Route */}
         <Route
           path="/articles/:id"
@@ -233,10 +230,11 @@ function App() {
             </Suspense>
           }
         />
-
         <Route path="/about-me" element={<AboutMe />} />
+        {/* Route for Privacy Policy */}
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />{" "}
+        {/* Added route */}
       </Routes>
-
       <Footer />
     </>
   );
