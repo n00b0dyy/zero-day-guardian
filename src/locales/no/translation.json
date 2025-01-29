@@ -205,5 +205,91 @@
       "title": "Kontakt oss",
       "description": "Hvis du har spørsmål om denne personvernpolitikken eller våre datapraksiser, vennligst kontakt oss på zerodayguardian@proton.me."
     }
+  },
+
+  "recommendedTools": {
+    "title": "Anbefalte verktøy og nettsteder",
+    "tools": {
+      "chatgpt": {
+        "name": "ChatGPT",
+        "description": "Avansert AI-modell for tekstgenerering og kodeassistanse.",
+        "price": "Gratis / Plus: 20$/måned"
+      },
+      "githubCopilot": {
+        "name": "GitHub Copilot",
+        "description": "AI-drevet kodeassistent fra OpenAI.",
+        "price": "10$/måned for enkeltbrukere"
+      },
+      "figma": {
+        "name": "Figma",
+        "description": "Verktøy for UI/UX-design og prototyping.",
+        "price": "Gratis / Pro: 12$/måned"
+      },
+      "canva": {
+        "name": "Canva",
+        "description": "Enkel grafisk designverktøy.",
+        "price": "Gratis / Pro: 12,99$/måned"
+      },
+      "mdnFigure": {
+        "name": "MDN Figur-element",
+        "description": "Dokumentasjon for HTML-elementet <figure>.",
+        "price": "Gratis"
+      },
+      "deWatermark": {
+        "name": "DeWatermark AI",
+        "description": "Fjerning av vannmerker med kunstig intelligens.",
+        "price": "Gratis / Premium"
+      },
+      "tinypng": {
+        "name": "TinyPNG",
+        "description": "PNG- og JPEG-bildekomprimeringsverktøy.",
+        "price": "Gratis / Pro: 25$/år"
+      },
+      "ezgif": {
+        "name": "Ezgif",
+        "description": "GIF-redigeringsverktøy for beskjæring, endring av størrelse, optimalisering og konvertering av filer.",
+        "price": "Gratis"
+      },
+      "webaim": {
+        "name": "WebAIM Kontrastkontroller",
+        "description": "Verktøy for å sjekke fargekontrast i henhold til WCAG.",
+        "price": "Gratis"
+      },
+      "uigoodies": {
+        "name": "UI Goodies",
+        "description": "Samling av UI/UX-ressurser som fargepaletter, ikoner og verktøy.",
+        "price": "Gratis"
+      },
+      "imagetotext": {
+        "name": "Image to Text",
+        "description": "OCR-teknologi for å konvertere bilder til tekst.",
+        "price": "Gratis"
+      },
+      "coolors": {
+        "name": "Coolors",
+        "description": "Rask og enkel fargepalettgenerator for designere og kunstnere.",
+        "price": "Gratis / Pro: 5$/måned"
+      },
+      "htmlColorCodes": {
+        "name": "HTML Color Codes",
+        "description": "Omfattende verktøy for å finne og konvertere HTML-fargekoder.",
+        "price": "Gratis"
+      },
+      "pdf2docx": {
+        "name": "PDF2DOCX",
+        "description": "Online-konverterer for å gjøre PDF-filer om til redigerbare DOCX-filer.",
+        "price": "Gratis / Premium"
+      },
+      "smodin": {
+        "name": "Smodin",
+        "description": "AI-drevet verktøy for omskriving og generering av tekst.",
+        "price": "Gratis / Pro: Ulike planer"
+      },
+      "patorjk": {
+        "name": "Patorjk",
+        "description": "ASCII-tekstgenerator og ulike online-verktøy for utviklere.",
+        "price": "Gratis"
+      }
+    }
   }
 }

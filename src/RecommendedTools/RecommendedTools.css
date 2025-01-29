@@ -1,0 +1,56 @@
+.recommended-tools {
+  text-align: center;
+  padding: 2.5rem 1.25rem;
+  background-color: #f9f9f9;
+}
+
+.recommended-tools h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.tool-card {
+  background: #ffffff;
+  border-radius: 0.625rem;
+  padding: 0.9375rem;
+  width: 15.625rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.tool-card:hover {
+  transform: scale(1.05);
+}
+
+.tool-logo {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  margin-bottom: 0.625rem;
+}
+
+.tool-card h3 {
+  font-size: 1.525rem;
+  margin-bottom: 0.625rem;
+}
+
+.tool-card p {
+  font-size: 1.175rem;
+  color: #555;
+}
+
+.tool-price {
+  display: block;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 0.625rem;
+  margin-bottom: 4rem;
+}

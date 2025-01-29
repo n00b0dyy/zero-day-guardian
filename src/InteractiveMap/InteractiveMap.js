@@ -122,10 +122,14 @@ const InteractiveMap = () => {
       center={[20, 0]}
       zoom={2}
       minZoom={2}
-      maxZoom={10}
+      maxZoom={2}
       className="leaflet-container"
       maxBounds={limitedBounds}
       maxBoundsViscosity={1.0}
+      zoomControl={false}
+      scrollWheelZoom={false}
+      doubleClickZoom={false}
+      dragging={true}
     >
       <TileLayer
         url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"

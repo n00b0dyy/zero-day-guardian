@@ -225,5 +225,91 @@
       "title": "Contact Us",
       "description": "If you have any questions about this privacy policy or our data practices, please contact us at zerodayguardian@proton.me."
     }
+  },
+
+  "recommendedTools": {
+    "title": "Recommended Tools and Websites",
+    "tools": {
+      "chatgpt": {
+        "name": "ChatGPT",
+        "description": "Advanced AI model for text generation and coding assistance.",
+        "price": "Free / Plus: $20/month"
+      },
+      "githubCopilot": {
+        "name": "GitHub Copilot",
+        "description": "AI-powered coding assistant from OpenAI.",
+        "price": "$10/month for individual users"
+      },
+      "figma": {
+        "name": "Figma",
+        "description": "Tool for UI/UX design and prototyping.",
+        "price": "Free / Pro: $12/month"
+      },
+      "canva": {
+        "name": "Canva",
+        "description": "Easy-to-use graphic design tool.",
+        "price": "Free / Pro: $12.99/month"
+      },
+      "mdnFigure": {
+        "name": "MDN Figure Element",
+        "description": "Documentation for the <figure> HTML element.",
+        "price": "Free"
+      },
+      "deWatermark": {
+        "name": "DeWatermark AI",
+        "description": "AI-powered watermark remover.",
+        "price": "Free / Premium"
+      },
+      "tinypng": {
+        "name": "TinyPNG",
+        "description": "PNG and JPEG image compression tool.",
+        "price": "Free / Pro: $25/year"
+      },
+      "ezgif": {
+        "name": "Ezgif",
+        "description": "GIF editor for cropping, resizing, optimizing, and converting files.",
+        "price": "Free"
+      },
+      "webaim": {
+        "name": "WebAIM Contrast Checker",
+        "description": "Tool for checking color contrast according to WCAG.",
+        "price": "Free"
+      },
+      "uigoodies": {
+        "name": "UI Goodies",
+        "description": "Collection of UI/UX resources such as color palettes, icons, and tools.",
+        "price": "Free"
+      },
+      "imagetotext": {
+        "name": "Image to Text",
+        "description": "OCR technology to convert images to text.",
+        "price": "Free"
+      },
+      "coolors": {
+        "name": "Coolors",
+        "description": "Fast and easy color palette generator for designers and artists.",
+        "price": "Free / Pro: $5/month"
+      },
+      "htmlColorCodes": {
+        "name": "HTML Color Codes",
+        "description": "Comprehensive tool for finding and converting HTML color codes.",
+        "price": "Free"
+      },
+      "pdf2docx": {
+        "name": "PDF2DOCX",
+        "description": "Online converter for transforming PDFs into editable DOCX files.",
+        "price": "Free / Premium"
+      },
+      "smodin": {
+        "name": "Smodin",
+        "description": "AI-powered paraphrasing and text generation tool.",
+        "price": "Free / Pro: Various plans"
+      },
+      "patorjk": {
+        "name": "Patorjk",
+        "description": "ASCII text generator and various online developer tools.",
+        "price": "Free"
+      }
+    }
   }
 }

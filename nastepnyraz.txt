@@ -2,7 +2,7 @@
 
 artykuly uzupelnione, trzeba sie zastanowic na hostingiem w vercel, trzeba zapytac Martina
 
-trzeba zrobic privacy policy dla fr no i ru
+trzeba zrobic cookies dla fr no i ru
 
 zastanow sie nad wprowadzeniem komponentu polecane narzedzia i strony internetowe
 

@@ -223,5 +223,91 @@
       "title": "Kontakt z Nami",
       "description": "Jeśli masz jakiekolwiek pytania dotyczące tej polityki prywatności lub naszych praktyk dotyczących danych, skontaktuj się z nami pod zerodayguardian@proton.me"
     }
+  },
+
+  "recommendedTools": {
+    "title": "Polecane narzędzia i strony internetowe",
+    "tools": {
+      "chatgpt": {
+        "name": "ChatGPT",
+        "description": "Zaawansowany model AI do generowania tekstu i pomocy w programowaniu.",
+        "price": "Darmowy / Plus: 20$/mies."
+      },
+      "githubCopilot": {
+        "name": "GitHub Copilot",
+        "description": "Asystent kodowania AI wspomagany przez OpenAI.",
+        "price": "10$/mies. dla użytkowników indywidualnych"
+      },
+      "figma": {
+        "name": "Figma",
+        "description": "Narzędzie do projektowania interfejsów użytkownika i UX/UI.",
+        "price": "Darmowy / Pro: 12$/mies."
+      },
+      "canva": {
+        "name": "Canva",
+        "description": "Łatwe w użyciu narzędzie do projektowania grafiki.",
+        "price": "Darmowy / Pro: 12,99$/mies."
+      },
+      "mdnFigure": {
+        "name": "MDN Element Figure",
+        "description": "Dokumentacja elementu HTML <figure>.",
+        "price": "Darmowe"
+      },
+      "deWatermark": {
+        "name": "DeWatermark AI",
+        "description": "Usuwanie znaków wodnych z obrazów za pomocą AI.",
+        "price": "Darmowe / Premium"
+      },
+      "tinypng": {
+        "name": "TinyPNG",
+        "description": "Narzędzie do kompresji obrazów PNG i JPEG.",
+        "price": "Darmowe / Pro: 25$/rok"
+      },
+      "ezgif": {
+        "name": "Ezgif",
+        "description": "Edytor GIF do przycinania, zmiany rozmiaru, optymalizacji i konwersji plików.",
+        "price": "Darmowe"
+      },
+      "webaim": {
+        "name": "WebAIM Contrast Checker",
+        "description": "Narzędzie do sprawdzania kontrastu kolorów zgodnie z WCAG.",
+        "price": "Darmowe"
+      },
+      "uigoodies": {
+        "name": "UI Goodies",
+        "description": "Zbiór zasobów UI/UX, w tym palety kolorów, ikony i narzędzia.",
+        "price": "Darmowe"
+      },
+      "imagetotext": {
+        "name": "Image to Text",
+        "description": "Technologia OCR do konwersji obrazu na tekst.",
+        "price": "Darmowe"
+      },
+      "coolors": {
+        "name": "Coolors",
+        "description": "Szybki i łatwy generator palet kolorów dla grafików i artystów.",
+        "price": "Darmowe / Pro: 5$/mies."
+      },
+      "htmlColorCodes": {
+        "name": "HTML Color Codes",
+        "description": "Zaawansowane narzędzie do wyszukiwania i konwersji kodów kolorów HTML.",
+        "price": "Darmowe"
+      },
+      "pdf2docx": {
+        "name": "PDF2DOCX",
+        "description": "Konwerter online do przekształcania plików PDF w edytowalne dokumenty DOCX.",
+        "price": "Darmowe / Premium"
+      },
+      "smodin": {
+        "name": "Smodin",
+        "description": "Narzędzie AI do parafrazowania i generowania treści.",
+        "price": "Darmowe / Pro: Różne plany"
+      },
+      "patorjk": {
+        "name": "Patorjk",
+        "description": "Generator tekstu ASCII oraz różne narzędzia online dla programistów.",
+        "price": "Darmowe"
+      }
+    }
   }
 }

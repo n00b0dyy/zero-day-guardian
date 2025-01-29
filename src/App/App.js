@@ -11,7 +11,8 @@ import LogoGlowna5 from "../Body/BodyImages/logo glowna5jpg.webp";
 import LogoGlowna6 from "../Body/BodyImages/logo glowna6.webp";
 import InteractiveMap from "../InteractiveMap/InteractiveMap";
 import AboutMe from "../AboutMe/AboutMe";
-import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy"; // Import komponentu PrivacyPolicy
+import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy";
+import RecommendedTools from "../RecommendedTools/RecommendedTools";
 
 const ArticleList = lazy(() => import("../Articles/ArticleList"));
 const ArticlePage = lazy(() => import("../Articles/ArticlePage"));
@@ -128,6 +129,7 @@ function App() {
                 ))}
               </div>
               <InteractiveMap />
+              <RecommendedTools />
             </main>
           }
         />
