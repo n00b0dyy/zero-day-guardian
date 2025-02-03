@@ -7,6 +7,12 @@
   margin-top: 40px;
 }
 
+.article-image {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+}
+
 .article-page-image {
   width: 600px;
   height: 430px;
