@@ -1,7 +1,7 @@
 .about-me-container {
   padding: 20px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 100px auto 50px;
   font-family: "Arial", sans-serif;
   line-height: 1.6;
   color: #ffffff;
@@ -44,7 +44,7 @@
 }
 
 .social-icon {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   color: #ffffff;
   transition: color 0.3s ease;
 }
@@ -107,7 +107,7 @@
   }
 
   .social-icon {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
 
   .courses-list li {
@@ -129,7 +129,7 @@
   }
 
   .about-me-photo-container {
-    width: 100px;
+    width: 150px;
   }
 
   .about-me-photo {
@@ -141,7 +141,7 @@
   }
 
   .social-icon {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .courses-list li {

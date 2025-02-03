@@ -109,6 +109,8 @@ header {
     gap: 5px;
     white-space: wrap;
     z-index: 103;
+    margin-top: 80px;
+    color: white;
   }
 
   .menu-title,
