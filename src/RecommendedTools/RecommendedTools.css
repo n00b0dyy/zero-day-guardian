@@ -1,12 +1,13 @@
 .recommended-tools {
   text-align: center;
   padding: 2.5rem 1.25rem;
-  background-color: #f9f9f9;
+  background-color: #000000;
 }
 
 .recommended-tools h2 {
   font-size: 2.5rem;
   margin-bottom: 3.25rem;
+  color: white;
 }
 
 .tools-list {
@@ -17,7 +18,7 @@
 }
 
 .tool-card {
-  background: #ffffff;
+  background: #4d4b4b;
   border-radius: 0.625rem;
   padding: 0.9375rem;
   width: 15.625rem;
@@ -40,11 +41,12 @@
 .tool-card h3 {
   font-size: 1.525rem;
   margin-bottom: 0.625rem;
+  color: white;
 }
 
 .tool-card p {
   font-size: 1.175rem;
-  color: #555;
+  color: #ffffff;
 }
 
 .tool-price {

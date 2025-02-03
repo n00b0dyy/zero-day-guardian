@@ -20,7 +20,7 @@
   position: absolute;
   top: 100%;
   left: -150px;
-  background-color: #ffffff;
+  background-color: #000000;
   border: 1px solid #cccccc;
   width: 270px;
   max-height: 0; /* Ukrycie menu domyślnie */
@@ -41,6 +41,7 @@
   font-family: "Orbitron", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
+  color: white;
 }
 .menu2-list li:first-child {
   margin-top: 20px;
