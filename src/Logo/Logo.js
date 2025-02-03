@@ -1,13 +1,10 @@
-// src/Logo/Logo.js
 import React from "react";
-import logo from "./output.png";
-
 import "./Logo.css";
 
 const Logo = () => {
   return (
     <div className="logo-wrapper">
-      <img src={logo} alt="Logo" className="logo" />{" "}
+      <img src="/images/logo/logo.png" alt="Logo" className="logo" />
     </div>
   );
 };
