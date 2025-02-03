@@ -54,7 +54,7 @@ const MatrixRain = () => {
     <canvas
       ref={canvasRef}
       style={{
-        position: "relative",
+        position: "absolute",
         top: 0,
         left: 0,
         width: "100%",
