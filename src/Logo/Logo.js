@@ -1,6 +1,6 @@
 // src/Logo/Logo.js
 import React from "react";
-import logo from "./logo.webp";
+import logo from "./output.png";
 
 import "./Logo.css";
 

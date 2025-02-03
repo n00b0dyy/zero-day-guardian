@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-import markerIcon from "../Body/BodyImages/mapsticker.png";
+import markerIcon from "../Body/BodyImages/map-pin-simple.svg";
 
 const customIcon = new L.Icon({
   iconUrl: markerIcon,

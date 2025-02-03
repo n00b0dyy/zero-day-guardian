@@ -22,17 +22,15 @@
   background-color: #ffffff;
   border: 1px solid #cccccc;
   width: 270px;
-  opacity: 0;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
   pointer-events: none;
-  z-index: 1000;
+  z-index: 1050;
 }
 
 .menu2-container:hover .menu2-list {
-  opacity: 1;
-  transform: scaleY(1);
+  max-height: 500px;
   pointer-events: auto;
 }
 

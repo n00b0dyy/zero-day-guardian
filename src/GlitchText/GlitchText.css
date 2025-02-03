@@ -1,6 +1,7 @@
 .glitch {
   font-size: 8.5vh;
-  color: #32ea73;
+  color: #00e6e6;
+
   display: inline-block;
   font-family: "Orbitron", sans-serif;
   animation: glitch-animation 0.4s;
@@ -9,13 +10,13 @@
 }
 
 .glitch:hover {
-  color: magenta;
+  color: cyan;
   transform: scale(1.1);
 }
 
 .glitch-zero {
   font-size: 3rem;
-  color: magenta;
+  color: cyan;
   font-weight: bold;
   transition: color 0.3s ease, transform 0.3s ease;
   transform-origin: left;

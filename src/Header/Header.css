@@ -9,6 +9,15 @@ header {
   padding: 0 20px;
   position: relative;
 }
+.matrix-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
 
 .header-logo {
   display: flex;
@@ -36,8 +45,9 @@ header {
   text-align: left;
   margin-top: 10px;
   max-width: calc(100% - 170px);
-  z-index: 5;
+  z-index: 20;
   margin-left: 20px;
+  position: relative;
 }
 
 .glitch-link {
@@ -63,9 +73,6 @@ header {
 
 .menu-title,
 .menu2-title {
-  font-family: "Orbitron", sans-serif;
-  font-size: clamp(1rem, 2vw, 2.5rem);
-  font-weight: 700;
   white-space: normal;
   overflow: visible;
   text-align: left;
@@ -128,18 +135,19 @@ header {
   top: 10px;
   right: 20px;
   display: flex;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
 }
 
 .lang-btn {
   background: none;
-  border: 1px solid #ccc;
-  padding: 5px 10px;
-  font-size: 1rem;
+  border: 2px solid #ccc;
+  padding: 10px 20px;
+  font-size: 1.2rem;
   color: #fff;
   cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  border-radius: 5px;
 }
 
 .lang-btn:hover {
@@ -159,7 +167,7 @@ header {
   }
 
   .header {
-    height: 40vh;
+    height: 30vh;
     padding: 0 15px;
   }
 

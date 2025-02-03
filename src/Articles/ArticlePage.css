@@ -88,25 +88,34 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .article-page-image {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+  }
 
   .article-page h1 {
     font-size: 2rem;
     margin-bottom: 15px;
     display: none;
+    margin-left: 20px;
   }
 
   .article-page h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
+    margin-left: 20px;
   }
 
   .article-page h3 {
+    margin-left: 20px;
     font-size: 1.6rem;
     margin-bottom: 30px;
   }
 
   .article-page p {
     font-size: 1.2rem;
+    margin-left: 20px;
   }
 
   .article-page li {

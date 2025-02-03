@@ -6,6 +6,7 @@ import Logo from "../Logo/Logo";
 import GlitchText from "../GlitchText/GlitchText";
 import Menu from "../Menu/Menu1";
 import Menu2 from "../Menu/Menu2";
+import MatrixRain from "../MatrixRain/MatrixRain.js";
 
 const useDebouncedCallback = (callback, delay) => {
   const timerRef = useRef(null);
@@ -32,37 +33,39 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="header-logo">
-        <Link to="/about-me">
-          {" "}
-          <Logo />
-        </Link>
-      </div>
-      <div className="header-glitch">
-        <Link to="/" className="glitch-link">
-          <GlitchText />
-        </Link>
-      </div>
-      <div className="header-menus">
-        <Menu />
-        <Menu2 />
-      </div>
-      <div className="language-switcher">
-        <button onClick={() => changeLanguage("en")} className="lang-btn">
-          EN
-        </button>
-        <button onClick={() => changeLanguage("pl")} className="lang-btn">
-          PL
-        </button>
-        <button onClick={() => changeLanguage("fr")} className="lang-btn">
-          FR
-        </button>
-        <button onClick={() => changeLanguage("no")} className="lang-btn">
-          NO
-        </button>
-        <button onClick={() => changeLanguage("ru")} className="lang-btn">
-          RU
-        </button>
+      <MatrixRain />
+      <div className="header-content">
+        <div className="header-logo">
+          <Link to="/about-me">
+            <Logo />
+          </Link>
+        </div>
+        <div className="header-glitch">
+          <Link to="/" className="glitch-link">
+            <GlitchText />
+          </Link>
+        </div>
+        <div className="header-menus">
+          <Menu />
+          <Menu2 />
+        </div>
+        <div className="language-switcher">
+          <button onClick={() => changeLanguage("en")} className="lang-btn">
+            EN
+          </button>
+          <button onClick={() => changeLanguage("pl")} className="lang-btn">
+            PL
+          </button>
+          <button onClick={() => changeLanguage("fr")} className="lang-btn">
+            FR
+          </button>
+          <button onClick={() => changeLanguage("no")} className="lang-btn">
+            NO
+          </button>
+          <button onClick={() => changeLanguage("ru")} className="lang-btn">
+            RU
+          </button>
+        </div>
       </div>
     </header>
   );

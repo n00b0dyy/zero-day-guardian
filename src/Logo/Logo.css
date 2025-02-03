@@ -15,6 +15,6 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .logo:hover {
-  transform: scale(1.2);
+  transform: scale(1.6);
   animation: glow 1.5s infinite alternate;
 }
