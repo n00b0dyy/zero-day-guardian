@@ -8,7 +8,11 @@ const Menu1 = () => {
   const { t } = useTranslation();
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(prev => !prev);
+  };
+
+  const handleItemClick = () => {
+    setIsOpen(false);
   };
 
   const menuItems = [
@@ -20,15 +24,14 @@ const Menu1 = () => {
   ];
 
   return (
-    <div
-      className="menu-container"
-      onMouseEnter={toggleMenu}
-      onMouseLeave={toggleMenu}
-    >
-      <h2 className="menu-title">{t("header.menu1")}</h2>
+    <div className="menu-container">
+      <h2 className="menu-title" onClick={toggleMenu}>
+        {t("header.menu1")}
+      </h2>
+
       <ul className={`menu-list ${isOpen ? "open" : ""}`}>
         {menuItems.map((item, index) => (
-          <li key={index}>
+          <li key={index} onClick={handleItemClick}>
             <Link to={item.path} className="menu-link">
               {item.label}
             </Link>

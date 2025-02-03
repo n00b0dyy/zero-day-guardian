@@ -6,8 +6,13 @@ import "./Menu2.css";
 const Menu2 = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
+
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(prev => !prev);
+  };
+
+  const handleItemClick = () => {
+    setIsOpen(false);
   };
 
   const menuItems = [
@@ -23,15 +28,16 @@ const Menu2 = () => {
   ];
 
   return (
-    <div
-      className="menu2-container"
-      onMouseEnter={toggleMenu}
-      onMouseLeave={toggleMenu}
-    >
-      <h2 className="menu2-title">{t("header.menu2")}</h2>
+    <div className="menu2-container">
+      {/* Kliknięcie w nagłówek otwiera menu */}
+      <h2 className="menu2-title" onClick={toggleMenu}>
+        {t("header.menu2")}
+      </h2>
+
+      {/* Menu otwiera się tylko, gdy isOpen === true */}
       <ul className={`menu2-list ${isOpen ? "open" : ""}`}>
         {menuItems.map((item, index) => (
-          <li key={index}>
+          <li key={index} onClick={handleItemClick}>
             <Link to={item.path} className="menu2-link">
               {item.label}
             </Link>
