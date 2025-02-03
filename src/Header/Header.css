@@ -25,7 +25,8 @@ header {
   justify-content: center;
   height: 150px;
   width: 150px;
-  z-index: 100;
+  z-index: 101;
+  position: relative;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 35px rgba(75, 0, 130, 0.7), 0 0 50px rgba(75, 0, 130, 0.5);

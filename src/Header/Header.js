@@ -33,13 +33,15 @@ const Header = () => {
 
   return (
     <header className="header">
+      {/* MatrixRain pozostaje na samym dole */}
       <MatrixRain />
+      {/* Logo ma wyższy z-index i jest nad MatrixRain */}
+      <div className="header-logo">
+        <Link to="/about-me">
+          <Logo />
+        </Link>
+      </div>
       <div className="header-content">
-        <div className="header-logo">
-          <Link to="/about-me">
-            <Logo />
-          </Link>
-        </div>
         <div className="header-glitch">
           <Link to="/" className="glitch-link">
             <GlitchText />
