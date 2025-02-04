@@ -213,7 +213,7 @@
       "chatgpt": {
         "name": "ChatGPT",
         "description": "Avansert AI-modell for tekstgenerering og kodeassistanse.",
-        "price": "Gratis / Plus: 20$/måned"
+        "price": "Gratis / Plus: 20$/måned / Pro 200$/måned"
       },
       "githubCopilot": {
         "name": "GitHub Copilot",
@@ -232,7 +232,7 @@
       },
       "mdnFigure": {
         "name": "MDN Figur-element",
-        "description": "Dokumentasjon for HTML-elementet <figure>.",
+        "description": "Dokumentasjon for HTML-elementeter.",
         "price": "Gratis"
       },
       "deWatermark": {
