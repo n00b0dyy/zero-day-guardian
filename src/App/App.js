@@ -90,6 +90,25 @@ function App() {
     }
   };
 
+  useEffect(() => {
+    const measurementId = process.env.REACT_APP_MEASUREMENT_ID;
+    if (measurementId) {
+      const script = document.createElement("script");
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+      script.async = true;
+      document.head.appendChild(script);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", measurementId);
+    } else {
+      console.error("Google Analytics Measurement ID is not defined");
+    }
+  }, []);
+
   return (
     <>
       <Header />
