@@ -289,6 +289,16 @@
         "name": "Patorjk",
         "description": "ASCII-tekstgenerator og ulike online-verktøy for utviklere.",
         "price": "Gratis"
+      },
+      "deepseek": {
+        "name": "Deepseek",
+        "description": "Et avansert verktøy for søk og dataanalyse på nettet.",
+        "price": "Gratis / Pro: 15$/måned"
+      },
+      "vercelHosting": {
+        "name": "Vercel Hosting",
+        "description": "Moderne skyhosting for front-end-applikasjoner.",
+        "price": "Gratis / Pro: fra 20$/måned"
       }
     }
   }

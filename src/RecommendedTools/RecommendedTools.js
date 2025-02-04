@@ -84,6 +84,16 @@ const recommendedItems = [
     logo: "/images/RecommendedToolsImages/patorjk.svg",
     link: "https://patorjk.com/",
   },
+  {
+    id: "deepseek",
+    logo: "/images/RecommendedToolsImages/deepseek.svg",
+    link: "https://deepseek.io/",
+  },
+  {
+    id: "vercelHosting",
+    logo: "/images/RecommendedToolsImages/vercel-hosting.svg",
+    link: "https://vercel.com/",
+  },
 ];
 
 const RecommendedTools = () => {
