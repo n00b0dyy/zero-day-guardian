@@ -23,16 +23,16 @@
   background-color: #000000;
   border: 1px solid #cccccc;
   width: 270px;
-  max-height: 0; /* Ukrycie menu domyślnie */
+  max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  pointer-events: none; /* Brak interakcji, gdy menu jest zamknięte */
+  pointer-events: none;
   z-index: 1050;
 }
 
 .menu2-list.open {
-  max-height: 500px; /* Pozwala na rozwinięcie */
-  pointer-events: auto; /* Aktywuje interakcję */
+  max-height: 500px;
+  pointer-events: auto;
 }
 
 .menu2-list li {

@@ -15,5 +15,4 @@ root.render(
   </React.StrictMode>
 );
 
-// Logowanie metryk do konsoli
 reportWebVitals(console.log);

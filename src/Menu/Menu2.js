@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./Menu2.css";
@@ -6,6 +6,7 @@ import "./Menu2.css";
 const Menu2 = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
+  const menuRef = useRef(null);
 
   const toggleMenu = () => {
     setIsOpen(prev => !prev);
@@ -14,6 +15,23 @@ const Menu2 = () => {
   const handleItemClick = () => {
     setIsOpen(false);
   };
+
+  const handleClickOutside = event => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen]);
 
   const menuItems = [
     {
@@ -28,13 +46,11 @@ const Menu2 = () => {
   ];
 
   return (
-    <div className="menu2-container">
-      {/* Kliknięcie w nagłówek otwiera menu */}
+    <div className="menu2-container" ref={menuRef}>
       <h2 className="menu2-title" onClick={toggleMenu}>
         {t("header.menu2")}
       </h2>
 
-      {/* Menu otwiera się tylko, gdy isOpen === true */}
       <ul className={`menu2-list ${isOpen ? "open" : ""}`}>
         {menuItems.map((item, index) => (
           <li key={index} onClick={handleItemClick}>

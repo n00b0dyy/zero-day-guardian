@@ -22,6 +22,8 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
+  width: 252px;
+  height: 227px;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
@@ -31,8 +33,8 @@
 }
 
 .article-image {
-  width: 250px;
-  height: 137.33px;
+  width: 201px;
+  height: 108.33px;
   object-fit: cover;
   border-bottom: 1px solid #ddd;
 }
