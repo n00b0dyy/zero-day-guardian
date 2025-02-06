@@ -1,3 +1,4 @@
+import Cookies from "js-cookie";
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -12,8 +13,9 @@ import LogoGlowna6 from "../Body/BodyImages/logo glowna6.png";
 import InteractiveMap from "../InteractiveMap/InteractiveMap";
 import AboutMe from "../AboutMe/AboutMe";
 import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy";
+import CookieConsent from "react-cookie-consent";
+import CookiesPolicy from "../PrivacyPolicy/CookiesPolicy";
 import RecommendedTools from "../RecommendedTools/RecommendedTools";
-
 const ArticleList = lazy(() => import("../Articles/ArticleList"));
 const ArticlePage = lazy(() => import("../Articles/ArticlePage"));
 
@@ -92,7 +94,9 @@ function App() {
 
   useEffect(() => {
     const measurementId = process.env.REACT_APP_MEASUREMENT_ID;
-    if (measurementId) {
+    const userConsent = Cookies.get("userConsent");
+
+    if (measurementId && userConsent === "true") {
       const script = document.createElement("script");
       script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
       script.async = true;
@@ -105,7 +109,7 @@ function App() {
       gtag("js", new Date());
       gtag("config", measurementId);
     } else {
-      console.error("Google Analytics Measurement ID is not defined");
+      console.warn("Google Analytics blocked due to missing consent.");
     }
   }, []);
 
@@ -254,8 +258,30 @@ function App() {
         <Route path="/about-me" element={<AboutMe />} />
         {/* Route for Privacy Policy */}
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />{" "}
+        <Route path="/cookies-policy" element={<CookiesPolicy />} />
       </Routes>
       <Footer />
+      <CookieConsent
+        location="bottom"
+        buttonText="Accept"
+        declineButtonText="Decline"
+        enableDeclineButton
+        cookieName="userConsent"
+        style={{ background: "#2B373B", color: "#fff" }}
+        buttonStyle={{ background: "#4CAF50", color: "#fff", fontSize: "14px" }}
+        declineButtonStyle={{
+          background: "#FF5733",
+          color: "#fff",
+          fontSize: "14px",
+        }}
+        expires={150}
+      >
+        This website uses cookies to ensure you get the best experience on our
+        website.{" "}
+        <a href="/cookies-policy" style={{ color: "#A8E6CF" }}>
+          Learn more
+        </a>
+      </CookieConsent>
     </>
   );
 }
