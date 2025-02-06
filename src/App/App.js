@@ -254,7 +254,6 @@ function App() {
         <Route path="/about-me" element={<AboutMe />} />
         {/* Route for Privacy Policy */}
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />{" "}
-        {/* Added route */}
       </Routes>
       <Footer />
     </>
