@@ -8,6 +8,8 @@
     }
   ],
   "routes": [
+    { "src": "/data/(.*)", "dest": "/data/:path*" },
+    { "src": "/images/(.*)", "dest": "/images/:path*" },
     { "src": "/static/(.*)", "dest": "/static/:path*" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
