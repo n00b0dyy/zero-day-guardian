@@ -1,8 +1,8 @@
 {
   "header": {
     "title": "Zer0-Day Guardian",
-    "menu1": "Nauka i Technologia",
-    "menu2": "Przyszłość i Innowacje"
+    "menu1": "☰ Nauka i Technologia",
+    "menu2": "☰ Przyszłość i Innowacje"
   },
   "menu1": {
     "algorithms": "Algorytmy",

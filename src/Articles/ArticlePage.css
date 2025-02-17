@@ -1,27 +1,21 @@
 .article-page {
-  padding: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 20px 30px;
   max-width: 800px;
-  margin: 0 auto;
-  margin-top: 40px;
+  margin: 40px auto 0;
   color: #ffffff;
   background-color: #000000;
 }
 
-.article-image {
-  width: 80%;
+/* 🔹 Zmieniona nazwa klasy dla głównego obrazka */
+.article-main-image {
+  width: 100%;
+  max-width: 600px;
   height: auto;
   border-radius: 8px;
-}
-
-.article-page-image {
-  width: 600px;
-  height: 430px;
-  margin: 20px auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 
 .article-page h1 {
@@ -34,16 +28,20 @@
   font-size: 1.6rem;
 }
 
+.article-page h2,
+.article-page h3,
+.article-page strong {
+  font-family: "Orbitron", sans-serif;
+}
+
 .article-page h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  font-family: "Orbitron", sans-serif;
 }
 
 .article-page h3 {
   font-size: 2rem;
   margin-bottom: 40px;
-  font-family: "Orbitron", sans-serif;
 }
 
 .article-page li {
@@ -54,18 +52,13 @@
 .article-page strong {
   font-size: 1.6rem;
   margin-bottom: 20px;
-  font-family: "Orbitron", sans-serif;
 }
 
+/* 🔹 Responsywność dla ekranów max 1023px */
 @media (max-width: 1023px) {
   .article-page {
     padding: 15px;
     margin-top: 30px;
-  }
-
-  .article-page h1 {
-    display: none;
-    font-size: 2.5rem;
   }
 
   .article-page h2 {
@@ -80,57 +73,34 @@
     font-size: 1.4rem;
   }
 
-  .article-page li {
-    font-size: 0.9rem;
-  }
-
-  .article-page strong {
-    font-size: 1rem;
+  .article-main-image {
+    max-width: 500px;
   }
 }
 
+/* 🔹 Responsywność dla ekranów max 480px (smartfony) */
 @media (max-width: 480px) {
   .article-page {
     padding: 10px;
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .article-page-image {
-    width: 100%;
-    height: auto;
-    max-width: 350px;
   }
 
-  .article-page h1 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    display: none;
-    margin-left: 20px;
+  .article-main-image {
+    max-width: 100%;
+    height: auto;
   }
 
   .article-page h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    margin-left: 20px;
   }
 
   .article-page h3 {
-    margin-left: 20px;
     font-size: 1.6rem;
     margin-bottom: 30px;
   }
 
   .article-page p {
     font-size: 1.2rem;
-    margin-left: 20px;
-  }
-
-  .article-page li {
-    font-size: 0.8rem;
-  }
-
-  .article-page strong {
-    font-size: 0.9rem;
   }
 }
