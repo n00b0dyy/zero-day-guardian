@@ -79,5 +79,15 @@
     "image": "/images/articles/SWIFT.png",
     "author": "N00b0dy",
     "date": "2025-02-06"
+  },
+  {
+    "id": 9,
+    "category": "Programming",
+    "subcategory": "Technology",
+    "title": "Pointers in C – A Powerful Tool for Memory Management",
+    "content": "<h2>Introduction to Pointers in C</h2>\n<p>Pointers are one of the most important and powerful features of the C language. They allow direct memory manipulation, making them an essential tool for code optimization, dynamic memory allocation, and building advanced data structures.</p>\n\n<h2>What is a Pointer?</h2>\n<p>A pointer is a variable that stores the memory address of another variable. This enables dynamic data access without copying values.</p>\n<p>Example of pointer declaration:</p>\n<pre style=\"color: #6fd430; background-color: #000000; padding: 15px; border-radius: 5px; font-size: 18px;\"><code>int number = 42;\nint *pointer = &number;  // Pointer storing the address of variable number</code></pre>\n\n<h2>Example Usage of Pointers</h2>\n<pre style=\"color: #6fd430; background-color: #000000; padding: 15px; border-radius: 5px; font-size: 18px;\"><code>#include &lt;stdio.h&gt;\n\nint main() {\n    int number = 100;\n    int *pointer = &number;\n\n    printf(\"Value of number: %d\\n\", number);\n    printf(\"Address of number: %p\\n\", &number);\n    printf(\"Address stored in pointer: %p\\n\", pointer);\n    printf(\"Value pointed by pointer: %d\\n\", *pointer);\n\n    return 0;\n}</code></pre>\n\n<h2>Modifying Values via Pointer</h2>\n<p>Pointers allow not only reading values but also modifying them:</p>\n<pre style=\"color: #6fd430; background-color: #000000; padding: 15px; border-radius: 5px; font-size: 18px;\"><code>#include &lt;stdio.h&gt;\n\nint main() {\n    int number = 42;\n    int *pointer = &number;\n\n    printf(\"Before modification: %d\\n\", number);\n    *pointer = 99;  // Modifying value via pointer\n    printf(\"After modification: %d\\n\", number);\n\n    return 0;\n}</code></pre>\n\n<p>Mastering pointers is crucial for any C programmer, as they are the foundation for dynamic data structures such as lists, trees, and stacks.</p>",
+    "image": "/images/articles/pointers.jpg",
+    "author": "N00b0dy",
+    "date": "2025-02-18"
   }
 ]
