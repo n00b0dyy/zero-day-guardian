@@ -1,8 +1,7 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Helmet } from "react-helmet"; // 📌 Dodano Helmet do zarządzania metadanymi
-import "./App.css";
+import { Helmet } from "react-helmet";
 import "../Body/Body.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -113,7 +112,6 @@ function App() {
 
   return (
     <>
-      {/* 📌 Meta dane dla całej aplikacji */}
       <Helmet>
         <meta charSet="utf-8" />
         <title>Zero-Day-Guardian - Technology & Cybersecurity</title>
@@ -128,7 +126,6 @@ function App() {
         <meta name="author" content="Zero-Day-Guardian" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        {/* Open Graph for Facebook & LinkedIn */}
         <meta
           property="og:title"
           content="Zero-Day-Guardian - Technology & Cybersecurity"
@@ -141,7 +138,6 @@ function App() {
         <meta property="og:url" content="https://zero-day-guardian.com" />
         <meta property="og:type" content="website" />
 
-        {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
