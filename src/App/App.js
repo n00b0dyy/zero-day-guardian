@@ -1,6 +1,7 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet"; // 📌 Dodano Helmet do zarządzania metadanymi
 import "./App.css";
 import "../Body/Body.css";
 import Header from "../Header/Header";
@@ -112,6 +113,46 @@ function App() {
 
   return (
     <>
+      {/* 📌 Meta dane dla całej aplikacji */}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Zero-Day-Guardian - Technology & Cybersecurity</title>
+        <meta
+          name="description"
+          content="Explore the latest insights in technology, cybersecurity, AI, and programming at Zero-Day-Guardian."
+        />
+        <meta
+          name="keywords"
+          content="cybersecurity, technology, programming, AI, hacking, quantum computing, blockchain"
+        />
+        <meta name="author" content="Zero-Day-Guardian" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        {/* Open Graph for Facebook & LinkedIn */}
+        <meta
+          property="og:title"
+          content="Zero-Day-Guardian - Technology & Cybersecurity"
+        />
+        <meta
+          property="og:description"
+          content="Explore the latest insights in cybersecurity, AI, and programming."
+        />
+        <meta property="og:image" content="URL_TO_YOUR_IMAGE" />
+        <meta property="og:url" content="https://zero-day-guardian.com" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Zero-Day-Guardian - Technology & Cybersecurity"
+        />
+        <meta
+          name="twitter:description"
+          content="Stay ahead with insights into cybersecurity, AI, and programming."
+        />
+        <meta name="twitter:image" content="URL_TO_YOUR_IMAGE" />
+      </Helmet>
       <Header />
       <CookieBanner />
       <Routes>
