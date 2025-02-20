@@ -20,9 +20,7 @@ const ArticlePage = () => {
   useEffect(() => {
     const fetchArticle = async () => {
       try {
-        const response = await fetch(
-          `${process.env.PUBLIC_URL}/data/articles.${i18n.language}.json`
-        );
+        const response = await fetch(`/data/articles.${i18n.language}.json`);
         if (!response.ok) {
           throw new Error(`Error fetching articles: ${response.statusText}`);
         }
