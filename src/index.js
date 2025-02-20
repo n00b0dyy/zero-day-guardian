@@ -13,3 +13,9 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
+window.addEventListener("error", e => {
+  if (e.message.includes("Loading chunk")) {
+    console.warn("Chunk load failed. Reloading...");
+    window.location.reload();
+  }
+});

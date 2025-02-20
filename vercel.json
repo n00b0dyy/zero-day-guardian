@@ -8,9 +8,25 @@
     }
   ],
   "routes": [
-    { "src": "/data/(.*)", "dest": "/data/:path*" },
+    {
+      "src": "/data/(.*)",
+      "dest": "/data/:path*",
+      "headers": { "Cache-Control": "no-store" }
+    },
     { "src": "/images/(.*)", "dest": "/images/:path*" },
     { "src": "/static/(.*)", "dest": "/static/:path*" },
+    { "src": "/articles/(.*)", "dest": "/index.html" },
     { "src": "/(.*)", "dest": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/static/(.*).js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
   ]
 }

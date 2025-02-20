@@ -284,15 +284,7 @@ function App() {
             </Suspense>
           }
         />
-        {/* Article Details Route */}
-        <Route
-          path="/articles/:id"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <ArticlePage />
-            </Suspense>
-          }
-        />
+        <Route path="/articles/:id" element={<ArticlePage />} />
         <Route path="/about-me" element={<AboutMe />} />
         {/* Route for Privacy Policy */}
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />{" "}
