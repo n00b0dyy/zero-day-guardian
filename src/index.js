@@ -19,3 +19,10 @@ window.addEventListener("error", e => {
     window.location.reload();
   }
 });
+
+window.onunhandledrejection = event => {
+  if (event.reason && event.reason.name === "ChunkLoadError") {
+    console.warn("Chunk loading failed. Hard reload triggered.");
+    window.location.reload();
+  }
+};
