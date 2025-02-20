@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* 🔲 Zmiana tła na czarno-szary */
+  background: linear-gradient(to bottom, #181818, #242424);
+  color: white; /* Aby tekst był czytelny */
+  min-height: 100vh;
 }
 
 code {

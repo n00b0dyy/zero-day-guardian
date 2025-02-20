@@ -9,6 +9,10 @@ body {
   background-color: #242323;
 }
 
+.App-body {
+  background: linear-gradient(to bottom, #181818, #242424);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

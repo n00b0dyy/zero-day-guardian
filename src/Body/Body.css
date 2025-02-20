@@ -1,3 +1,11 @@
+/* 🔲 Nowa klasa zmieniająca całe tło na czarno-szary */
+.dark-background {
+  background: linear-gradient(to bottom, #181818, #242424);
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
 .body-images {
   display: flex;
   flex-wrap: wrap;
