@@ -14,46 +14,46 @@ const ArticlePage = () => {
     console.log(`🛠 Language detected: ${i18n.language}`);
     console.log(`🛠 Fetching from: /data/articles.${i18n.language}.json`);
 
-    const fetchArticle = async () => {
-      try {
-        const url = `/data/articles.${i18n.language}.json`;
-        console.log(`📡 Fetching data from: ${url}`);
+    // Tworzenie obiektu XMLHttpRequest
+    const xhr = new XMLHttpRequest();
+    const url = `/data/articles.${i18n.language}.json`;
 
-        const response = await fetch(url, { cache: "no-store" });
+    console.log(`📡 Fetching data from: ${url}`);
 
-        console.log("📩 Response received:", response);
+    xhr.open("GET", url, false); // false = synchronizacja (blokowanie)
+    xhr.setRequestHeader("Cache-Control", "no-store");
 
-        if (!response.ok) {
-          console.error(
-            `❌ HTTP Error ${response.status}: ${response.statusText}`
-          );
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-        }
+    try {
+      xhr.send(); // Wysyłanie zapytania
 
-        const contentType = response.headers.get("content-type");
-        if (!contentType || !contentType.includes("application/json")) {
-          console.error("❌ Expected JSON but received:", contentType);
-          throw new Error("Invalid JSON response from server.");
-        }
+      console.log("📩 Response received:", xhr);
 
-        const data = await response.json();
-        console.log("✅ Successfully fetched articles:", data);
-
-        const foundArticle = data.find(item => item.id.toString() === id);
-        if (!foundArticle) {
-          console.warn(`⚠️ Article with ID ${id} not found in dataset.`);
-          throw new Error("Article not found");
-        }
-
-        console.log("📝 Found article:", foundArticle);
-        setArticle(foundArticle);
-      } catch (err) {
-        console.error("🚨 Error fetching article:", err);
-        setError(err.message);
+      if (xhr.status !== 200) {
+        console.error(`❌ HTTP Error ${xhr.status}: ${xhr.statusText}`);
+        throw new Error(`HTTP ${xhr.status}: ${xhr.statusText}`);
       }
-    };
 
-    fetchArticle();
+      const contentType = xhr.getResponseHeader("Content-Type");
+      if (!contentType || !contentType.includes("application/json")) {
+        console.error("❌ Expected JSON but received:", contentType);
+        throw new Error("Invalid JSON response from server.");
+      }
+
+      const data = JSON.parse(xhr.responseText);
+      console.log("✅ Successfully fetched articles:", data);
+
+      const foundArticle = data.find(item => item.id.toString() === id);
+      if (!foundArticle) {
+        console.warn(`⚠️ Article with ID ${id} not found in dataset.`);
+        throw new Error("Article not found");
+      }
+
+      console.log("📝 Found article:", foundArticle);
+      setArticle(foundArticle);
+    } catch (err) {
+      console.error("🚨 Error fetching article:", err);
+      setError(err.message);
+    }
   }, [id, i18n.language]);
 
   if (error) {

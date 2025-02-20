@@ -1,117 +1,73 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
+import ArticleList from "../Articles/ArticleList";
+import ArticlePage from "../Articles/ArticlePage";
 import "../Body/Body.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import LogoGlowna3 from "../Body/BodyImages/logo glowna3.png";
-import LogoGlowna4 from "../Body/BodyImages/logo glowna4.png";
-import LogoGlowna5 from "../Body/BodyImages/logo glowna5jpg.png";
-import LogoGlowna6 from "../Body/BodyImages/logo glowna6.png";
 import InteractiveMap from "../InteractiveMap/InteractiveMap";
 import AboutMe from "../AboutMe/AboutMe";
 import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy";
 import CookieBanner from "../CookieBanner/CookieBanner";
 import RecommendedTools from "../RecommendedTools/RecommendedTools";
 
-import ArticleList from "../Articles/ArticleList";
-import ArticlePage from "../Articles/ArticlePage";
+import LogoGlowna3 from "../Body/BodyImages/logo glowna3.png";
+import LogoGlowna4 from "../Body/BodyImages/logo glowna4.png";
+import LogoGlowna5 from "../Body/BodyImages/logo glowna5jpg.png";
+import LogoGlowna6 from "../Body/BodyImages/logo glowna6.png";
 
-const subcategoryTranslations = {
-  en: {
-    Science: "Science",
-    Technology: "Technology",
-    Future: "Future",
-    Innovation: "Innovation",
-  },
-  pl: {
-    Science: "Nauka",
-    Technology: "Technologia",
-    Future: "Przyszłość",
-    Innovation: "Innowacja",
-  },
-  fr: {
-    Science: "Science",
-    Technology: "Technologie",
-    Future: "Futur",
-    Innovation: "Innovation",
-  },
-  no: {
-    Science: "Vitenskap",
-    Technology: "Teknologi",
-    Future: "Fremtid",
-    Innovation: "Innovasjon",
-  },
-  ru: {
-    Science: "Наука",
-    Technology: "Технология",
-    Future: "Будущее",
-    Innovation: "Инновация",
-  },
-};
+const categories = [
+  { id: "Science", img: LogoGlowna3 },
+  { id: "Technology", img: LogoGlowna4 },
+  { id: "Future", img: LogoGlowna5 },
+  { id: "Innovation", img: LogoGlowna6 },
+];
 
 function App() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [latestArticles, setLatestArticles] = useState({});
 
+  // 🔄 Odśwież stronę tylko raz po 500ms
   useEffect(() => {
-    const loadArticles = async () => {
-      try {
-        const response = await fetch(
-          `${process.env.PUBLIC_URL}/data/articles.${i18n.language}.json`
-        );
-
-        if (!response.ok) {
-          throw new Error(`Error fetching articles: ${response.statusText}`);
-        }
-        const data = await response.json();
-
-        const latest = {};
-        Object.entries(subcategoryTranslations[i18n.language]).forEach(
-          ([key, translatedSubcategory]) => {
-            latest[key] = data
-              .filter(article => article.subcategory === translatedSubcategory)
-              .sort((a, b) => new Date(b.date) - new Date(a.date))[0];
-          }
-        );
-        setLatestArticles(latest);
-      } catch (error) {
-        console.error("Error fetching articles:", error);
-      }
-    };
-
-    loadArticles();
-  }, [i18n.language]);
-
-  const handleClick = subcategory => {
-    const latestArticle = latestArticles[subcategory];
-    if (latestArticle) {
-      navigate(`/articles/${latestArticle.id}`);
-    } else {
-      console.warn(`No article found for subcategory: ${subcategory}`);
-    }
-  };
-
-  useEffect(() => {
-    const measurementId = process.env.REACT_APP_MEASUREMENT_ID;
-    if (measurementId) {
-      const script = document.createElement("script");
-      script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
-      script.async = true;
-      document.head.appendChild(script);
-
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        window.dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", measurementId);
-    } else {
-      console.error("Google Analytics Measurement ID is not defined");
+    if (!sessionStorage.getItem("hasRefreshed")) {
+      sessionStorage.setItem("hasRefreshed", "true");
+      setTimeout(() => window.location.reload(), 500);
     }
   }, []);
+
+  // 📡 Pobieranie artykułów
+  useEffect(() => {
+    fetch(`${process.env.PUBLIC_URL}/data/articles.${i18n.language}.json`)
+      .then(response => {
+        if (!response.ok)
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        return response.json();
+      })
+      .then(data => {
+        const latest = {};
+        categories.forEach(cat => {
+          latest[cat.id] = data
+            .filter(
+              article =>
+                article.subcategory === t(`body.${cat.id.toLowerCase()}`)
+            )
+            .sort((a, b) => new Date(b.date) - new Date(a.date))[0];
+        });
+        setLatestArticles(latest);
+      })
+      .catch(error => console.error("Error fetching articles:", error));
+  }, [i18n.language]);
+
+  // 🔗 Kliknięcie w kategorię → Nawigacja do artykułu
+  const handleClick = category => {
+    const latestArticle = latestArticles[category];
+    latestArticle
+      ? navigate(`/articles/${latestArticle.id}`)
+      : console.warn(`No article for: ${category}`);
+  };
 
   return (
     <>
@@ -122,67 +78,34 @@ function App() {
           name="description"
           content="Explore the latest insights in technology, cybersecurity, AI, and programming at Zero-Day-Guardian."
         />
-        <meta
-          name="keywords"
-          content="cybersecurity, technology, programming, AI, hacking, quantum computing, blockchain"
-        />
-        <meta name="author" content="Zero-Day-Guardian" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <meta
-          property="og:title"
-          content="Zero-Day-Guardian - Technology & Cybersecurity"
-        />
-        <meta
-          property="og:description"
-          content="Explore the latest insights in cybersecurity, AI, and programming."
-        />
-        <meta property="og:image" content="URL_TO_YOUR_IMAGE" />
-        <meta property="og:url" content="https://zero-day-guardian.com" />
-        <meta property="og:type" content="website" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Zero-Day-Guardian - Technology & Cybersecurity"
-        />
-        <meta
-          name="twitter:description"
-          content="Stay ahead with insights into cybersecurity, AI, and programming."
-        />
-        <meta name="twitter:image" content="URL_TO_YOUR_IMAGE" />
       </Helmet>
+
       <Header />
       <CookieBanner />
+
       <Routes>
+        {/* Strona główna */}
         <Route
           path="/"
           element={
             <main className="App-body">
               <div className="body-images">
-                {["Science", "Technology", "Future", "Innovation"].map(cat => (
+                {categories.map(cat => (
                   <div
-                    key={cat}
+                    key={cat.id}
                     className="image-wrapper"
-                    onClick={() => handleClick(cat)}
+                    onClick={() => handleClick(cat.id)}
                   >
                     <p className="image-label">
-                      {t(`body.${cat.toLowerCase()}`)}
+                      {t(`body.${cat.id.toLowerCase()}`)}
                     </p>
                     <p className="image-description">
-                      {t(`body.${cat.toLowerCase()}Description`)}
+                      {t(`body.${cat.id.toLowerCase()}Description`)}
                     </p>
                     <img
-                      src={
-                        cat === "Science"
-                          ? LogoGlowna3
-                          : cat === "Technology"
-                          ? LogoGlowna4
-                          : cat === "Future"
-                          ? LogoGlowna5
-                          : LogoGlowna6
-                      }
-                      alt={t(`body.${cat.toLowerCase()}`)}
+                      src={cat.img}
+                      alt={t(`body.${cat.id.toLowerCase()}`)}
                       className="body-image"
                       loading="lazy"
                     />
@@ -194,7 +117,8 @@ function App() {
             </main>
           }
         />
-        {/* Menu1 Routes */}
+
+        {/* Menu 1 - Algorytmy, programowanie itd. */}
         <Route
           path="/algorithms"
           element={
@@ -235,7 +159,8 @@ function App() {
             </Suspense>
           }
         />
-        {/* Menu2 Routes */}
+
+        {/* Menu 2 - AI, Blockchain, IoT itd. */}
         <Route
           path="/artificial-intelligence"
           element={
@@ -284,11 +209,13 @@ function App() {
             </Suspense>
           }
         />
+
+        {/* Artykuły i strony statyczne */}
         <Route path="/articles/:id" element={<ArticlePage />} />
         <Route path="/about-me" element={<AboutMe />} />
-        {/* Route for Privacy Policy */}
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />{" "}
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
+
       <Footer />
     </>
   );
