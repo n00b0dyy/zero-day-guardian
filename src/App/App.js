@@ -15,8 +15,9 @@ import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy";
 import CookieBanner from "../CookieBanner/CookieBanner";
 import RecommendedTools from "../RecommendedTools/RecommendedTools";
 
-const ArticleList = lazy(() => import("../Articles/ArticleList"));
-const ArticlePage = lazy(() => import("../Articles/ArticlePage"));
+import ArticleList from "../Articles/ArticleList";
+
+import ArticlePage from "../Articles/ArticlePage";
 
 const subcategoryTranslations = {
   en: {
