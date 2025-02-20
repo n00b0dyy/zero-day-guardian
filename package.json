@@ -2,7 +2,7 @@
   "name": "zero-day-guardian",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://zero-day-guardian.vercel.app",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
@@ -17,7 +17,7 @@
     "react-helmet": "^6.1.0",
     "react-i18next": "14.0.0",
     "react-leaflet": "^4.2.1",
-    "react-router-dom": "^7.1.1",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.3"
   },
