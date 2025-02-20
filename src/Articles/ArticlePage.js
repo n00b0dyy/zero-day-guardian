@@ -10,25 +10,22 @@ const ArticlePage = () => {
   const { i18n, t } = useTranslation();
 
   useEffect(() => {
-    const hasRefreshed = sessionStorage.getItem("hasRefreshed");
-    if (!hasRefreshed) {
-      sessionStorage.setItem("hasRefreshed", "true");
-      window.location.reload();
-    }
-  }, []);
-
-  useEffect(() => {
     const fetchArticle = async () => {
       try {
+        // 🔧 Poprawiona ścieżka do pliku JSON w `public/data/`
         const response = await fetch(`/data/articles.${i18n.language}.json`);
+
         if (!response.ok) {
           throw new Error(`Error fetching articles: ${response.statusText}`);
         }
+
         const data = await response.json();
-        const foundArticle = data.find(item => item.id === parseInt(id));
+        const foundArticle = data.find(item => item.id.toString() === id);
+
         if (!foundArticle) {
           throw new Error("Article not found");
         }
+
         setArticle(foundArticle);
       } catch (err) {
         console.error("Error fetching article:", err);
