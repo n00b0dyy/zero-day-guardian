@@ -16,7 +16,6 @@ import CookieBanner from "../CookieBanner/CookieBanner";
 import RecommendedTools from "../RecommendedTools/RecommendedTools";
 
 import ArticleList from "../Articles/ArticleList";
-
 import ArticlePage from "../Articles/ArticlePage";
 
 const subcategoryTranslations = {
@@ -60,7 +59,10 @@ function App() {
   useEffect(() => {
     const loadArticles = async () => {
       try {
-        const response = await fetch(`/data/articles.${i18n.language}.json`);
+        const response = await fetch(
+          `${process.env.PUBLIC_URL}/data/articles.${i18n.language}.json`
+        );
+
         if (!response.ok) {
           throw new Error(`Error fetching articles: ${response.statusText}`);
         }
