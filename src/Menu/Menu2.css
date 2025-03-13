@@ -42,16 +42,21 @@
   font-size: 1.5rem;
   font-weight: 400;
   color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .menu2-list li:first-child {
   margin-top: 20px;
 }
+
 .menu2-list li:last-child {
   border-bottom: none;
 }
 
+/* Dopasowanie kolorystyki do pierwszego menu */
 .menu2-list li:hover {
-  background-color: rgba(240, 240, 240, 0.8);
+  background-color: black; /* Poprawione, aby było identyczne */
+  color: white; /* Poprawione, aby było identyczne */
 }
 
 @media (max-width: 480px) {
@@ -61,11 +66,13 @@
     font-weight: 700;
     cursor: pointer;
   }
+
   .menu2-list {
     left: -40px;
     width: 120%;
   }
 }
+
 .menu2-list li {
   font-size: 1.2rem;
 }
@@ -75,6 +82,7 @@
     left: 0;
   }
 }
+
 .menu2-link {
   text-decoration: none;
   color: inherit;
