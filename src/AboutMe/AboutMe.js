@@ -78,7 +78,8 @@ const AboutMe = () => {
             "cybersecurity2",
             "linux",
             "javascriptExpert",
-            "reactCourse", // Dodano kurs React.js
+            "reactCourse",
+            "pcepCourse",
           ].map((courseKey, index) => (
             <li key={index} className="course-item">
               <div className="course-title">
