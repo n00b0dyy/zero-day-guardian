@@ -14,17 +14,16 @@ const ArticlePage = () => {
     console.log(`🛠 Language detected: ${i18n.language}`);
     console.log(`🛠 Fetching from: /data/articles.${i18n.language}.json`);
 
-    // Tworzenie obiektu XMLHttpRequest
     const xhr = new XMLHttpRequest();
     const url = `/data/articles.${i18n.language}.json`;
 
     console.log(`📡 Fetching data from: ${url}`);
 
-    xhr.open("GET", url, false); // false = synchronizacja (blokowanie)
+    xhr.open("GET", url, false);
     xhr.setRequestHeader("Cache-Control", "no-store");
 
     try {
-      xhr.send(); // Wysyłanie zapytania
+      xhr.send();
 
       console.log("📩 Response received:", xhr);
 
