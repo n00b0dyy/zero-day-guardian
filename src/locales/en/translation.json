@@ -1,4 +1,41 @@
 {
+    "aboutMe": {
+  "title": "About Me",
+  "descriptionStart": "Hello! My name is",
+  "name": "Kamil Lukas Gorny",
+  "descriptionMiddle": "and I am a technology enthusiast combining interests in cybersecurity, low-level programming, artificial intelligence (including LLM models), and reverse engineering. I am currently studying mathematics at the R2 level to prepare for",
+  "computerScience": "data science",
+  "pagePurpose": "This website is a collection of information I have gathered on topics that interest me. It also demonstrates my knowledge of JavaScript and React, as I built it from scratch without using templates.",
+  "coursesTitle": "Courses I Have Completed",
+  "courses": {
+    "powershellBeginner": "PowerShell Beginner Tutorial – Complete Course – 6 hours online",
+    "powershellBeginnerLink": "https://www.youtube.com/watch?v=LVuI9d-k9C6A",
+    "powershellIntermediate": "PowerShell: From Beginner to Script Developer – 11 hours online",
+    "powershellIntermediateLink": "https://www.udemy.com/certificate/UC-10b08877-27be-4fe1-b7d5-8cc3c51ebf4a/",
+    "powershellAdvanced": "PowerShell Advanced",
+    "powershellAdvancedLink": "https://www.udemy.com/certificate/UC-3d2f6b06-b10d-4e9a-acf8-fdf9ca116538/",
+    "comptia": "CompTIA A+ – Complete Course – 31 hours online",
+    "comptiaLink": "https://www.youtube.com/watch?v=IC7XXNKJAYs",
+    "pythonBootcamp": "100 Days of Code: The Complete Python Bootcamp – 58 hours online",
+    "pythonBootcampLink": "https://www.udemy.com/course/100-days-of-code/learn/lecture/23154980#overview",
+    "cybersecurity1": "The Complete Cybersecurity Course | V1",
+    "cybersecurity1Details": "Certificate: Nathan House BSc. Certificate Number 1-2875424334",
+    "cybersecurity1Link": "https://funkweb.udemy.com/certificate/UC-009f971d-6af6-471d-85b5-54329e501f06/",
+    "cybersecurity2": "The Complete Cybersecurity Course | V2",
+    "cybersecurity2Details": "Certificate: Nathan House BSc. Certificate Number 2-2875424334",
+    "cybersecurity2Link": "https://funkweb.udemy.com/certificate/UC-1e406f53-825a-499b-a430-7c40b6025399/",
+    "linux": "Linux for Beginners",
+    "linuxLink": "https://www.udemy.com/certificate/UC-b7808161-a224-42ac-a91d-93917d5caeb/",
+    "javascriptExpert": "The Complete JavaScript Course 2024: From Beginner to Expert! – 68.5 hours total",
+    "javascriptExpertLink": "https://funkweb.udemy.com/certificate/UC-7945af24-5b63-4bc2-94d7-807eecaee128/",
+    "reactCourse": "React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js",
+    "reactCourseLink": "https://funkweb.udemy.com/certificate/UC-ff00381b-26fe-49e1-94f5-80f08bbc31ed/",
+    "viewCourseLink": "View Course",
+    "viewCertificateLink": "View Certificate"
+  },
+  "beyondTechnologyTitle": "Beyond Technology",
+  "beyondTechnologyDescription": "Outside of technology, I enjoy spending my time actively. Snowboarding and mountain hiking are my favorite ways to relax and recharge. In my free time, I like reading books or exploring the world around me, drawing inspiration from every experience."
+},
   "header": {
     "title": "Zer0-Day Guardian",
     "menu1": "☰ Science and Technology ",
@@ -123,43 +160,7 @@
 
 
 
-  "aboutMe": {
-  "title": "About Me",
-  "descriptionStart": "Hello! My name is",
-  "name": "Kamil Lukas Gorny",
-  "descriptionMiddle": "and I am a technology enthusiast combining interests in cybersecurity, low-level programming, artificial intelligence (including LLM models), and reverse engineering. I am currently studying mathematics at the R2 level to prepare for",
-  "computerScience": "data science",
-  "pagePurpose": "This website is a collection of information I have gathered on topics that interest me. It also demonstrates my knowledge of JavaScript and React, as I built it from scratch without using templates.",
-  "coursesTitle": "Courses I Have Completed",
-  "courses": {
-    "powershellBeginner": "PowerShell Beginner Tutorial – Complete Course – 6 hours online",
-    "powershellBeginnerLink": "https://www.youtube.com/watch?v=LVuI9d-k9C6A",
-    "powershellIntermediate": "PowerShell: From Beginner to Script Developer – 11 hours online",
-    "powershellIntermediateLink": "https://www.udemy.com/certificate/UC-10b08877-27be-4fe1-b7d5-8cc3c51ebf4a/",
-    "powershellAdvanced": "PowerShell Advanced",
-    "powershellAdvancedLink": "https://www.udemy.com/certificate/UC-3d2f6b06-b10d-4e9a-acf8-fdf9ca116538/",
-    "comptia": "CompTIA A+ – Complete Course – 31 hours online",
-    "comptiaLink": "https://www.youtube.com/watch?v=IC7XXNKJAYs",
-    "pythonBootcamp": "100 Days of Code: The Complete Python Bootcamp – 58 hours online",
-    "pythonBootcampLink": "https://www.udemy.com/course/100-days-of-code/learn/lecture/23154980#overview",
-    "cybersecurity1": "The Complete Cybersecurity Course | V1",
-    "cybersecurity1Details": "Certificate: Nathan House BSc. Certificate Number 1-2875424334",
-    "cybersecurity1Link": "https://funkweb.udemy.com/certificate/UC-009f971d-6af6-471d-85b5-54329e501f06/",
-    "cybersecurity2": "The Complete Cybersecurity Course | V2",
-    "cybersecurity2Details": "Certificate: Nathan House BSc. Certificate Number 2-2875424334",
-    "cybersecurity2Link": "https://funkweb.udemy.com/certificate/UC-1e406f53-825a-499b-a430-7c40b6025399/",
-    "linux": "Linux for Beginners",
-    "linuxLink": "https://www.udemy.com/certificate/UC-b7808161-a224-42ac-a91d-93917d5caeb/",
-    "javascriptExpert": "The Complete JavaScript Course 2024: From Beginner to Expert! – 68.5 hours total",
-    "javascriptExpertLink": "https://funkweb.udemy.com/certificate/UC-7945af24-5b63-4bc2-94d7-807eecaee128/",
-    "reactCourse": "React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js",
-    "reactCourseLink": "https://funkweb.udemy.com/certificate/UC-ff00381b-26fe-49e1-94f5-80f08bbc31ed/",
-    "viewCourseLink": "View Course",
-    "viewCertificateLink": "View Certificate"
-  },
-  "beyondTechnologyTitle": "Beyond Technology",
-  "beyondTechnologyDescription": "Outside of technology, I enjoy spending my time actively. Snowboarding and mountain hiking are my favorite ways to relax and recharge. In my free time, I like reading books or exploring the world around me, drawing inspiration from every experience."
-},
+
   "privacyPolicy": {
     "title": "Privacy Policy",
     "introduction": "Your privacy is important to us. This privacy policy explains how we collect, use, and protect your personal data when you use our services. By accessing or using our website and services, you agree to the collection and use of information in accordance with this policy.",
