@@ -21,6 +21,9 @@ header {
 }
 
 .about-me-link {
+  display: inline-block;            
+  width: fit-content;              
+  max-width: 200px;           
   font-family: 'Orbitron', sans-serif;
   font-size: 1.1rem;
   color: #00ffc3;
