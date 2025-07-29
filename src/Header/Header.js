@@ -34,7 +34,6 @@ const Header = () => {
 <Link to="/about-me" className="about-me-link">
   {t("header.aboutMeLink")}
 </Link>
-      </div>
       <div className="header-glitch">
         <Link to="/" className="glitch-link">
           <GlitchText />
