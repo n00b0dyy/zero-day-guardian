@@ -20,29 +20,44 @@ header {
   pointer-events: none;
 }
 
-.header-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  aspect-ratio: 1 / 1;
-  height: 20vh;
-  max-height: 150px;
-  min-height: 10px;
-  width: auto;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 0 35px rgba(75, 0, 130, 0.7), 0 0 50px rgba(75, 0, 130, 0.5);
-  background-color: #111;
-  margin: auto;
-}
-
-.header-logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
+.about-me-link {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  color: #00ffc3;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
   position: relative;
+  transition: color 0.3s ease;
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  border-radius: 6px;
 }
+
+.about-me-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #00ffc3;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.about-me-link:hover {
+  color: #ffffff;
+  background-color: rgba(0, 255, 195, 0.1);
+  border-color: #00ffc3;
+}
+
+.about-me-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 
 .header-glitch {
   font-size: clamp(1rem, 2vw, 2.5rem);
