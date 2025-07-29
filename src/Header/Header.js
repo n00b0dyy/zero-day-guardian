@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      
+      <div className="header-logo">
 <Link to="/about-me" className="about-me-link">
   {t("header.aboutMeLink")}
 </Link>
