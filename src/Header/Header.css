@@ -209,4 +209,15 @@ header {
     height: 100%;
     object-fit: cover;
   }
+    .about-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+
+  .about-link:hover {
+    color: #00ffff;
+  }
 }
