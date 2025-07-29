@@ -19,7 +19,7 @@ i18n
       no: { translation: translationNO },
       ru: { translation: translationRU },
     },
-    fallbackLng: "no",
+    fallbackLng: "en",
     supportedLngs: ["en", "pl", "fr", "no", "ru"],
     detection: {
       order: ["querystring", "cookie", "localStorage", "navigator", "htmlTag"],
