@@ -2,7 +2,8 @@
   "header": {
     "title": "Zer0-Day Guardian",
     "menu1": "☰ Science and Technology ",
-    "menu2": "☰ Future and Innovations "
+    "menu2": "☰ Future and Innovations ",
+    "aboutMeLink": "About Me"
   },
   "menu1": {
     "algorithms": "Algorithms",
