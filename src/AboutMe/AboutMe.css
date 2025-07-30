@@ -96,7 +96,7 @@
     width: 100%;
     box-sizing: border-box;
     font-size: 1rem;
-    margin-top: 300px;
+    margin-top: 260px;
   }
 
   .about-me-photo-container {
@@ -124,6 +124,7 @@
 @media (max-width: 480px) {
   .about-me-container {
     padding: 0 20px;
+    margin-top: 150px;
     width: 90%;
     box-sizing: border-box;
     font-size: 1rem;
