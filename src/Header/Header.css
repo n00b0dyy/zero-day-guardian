@@ -209,6 +209,11 @@ header {
     padding: 0 15px;
   }
 
+  .header-menus {
+    margin-top: 60px;
+    font-size: 3.5rem;
+  }
+
   .lang-btn {
     padding: 3px 8px;
     font-size: 0.6rem;
