@@ -207,11 +207,11 @@ header {
   .header {
     height: 30vh;
     padding: 0 15px;
-    margin-bottom: 40px;
   }
 
   .header-menus {
     margin-top: 60px;
+    margin-bottom: 40px;
   }
 
   .lang-btn {
