@@ -245,10 +245,10 @@ header {
   .about-link:hover {
     color: #00ffff;
   }
-  @media screen and (max-width: 800px) and (orientation: landscape) {
+  @media screen and (max-height: 420px) and (orientation: landscape) {
     .menu-title,
     .menu2-title {
-      font-size: clamp(0.5rem, 1vw, 1rem);
+      font-size: clamp(0.8rem, 2vw, 1.4rem);
     }
   }
 }
