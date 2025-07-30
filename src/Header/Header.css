@@ -248,7 +248,7 @@ header {
   }
   @media screen and (orientation: landscape) {
     .body-images {
-      margin-top: 80px;
+      margin-top: 180px;
     }
   }
 }
