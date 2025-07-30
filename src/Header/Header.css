@@ -109,7 +109,7 @@ header {
   }
 
   .about-me-link {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .div.header-logo {
@@ -132,7 +132,7 @@ header {
     gap: 5px;
     white-space: wrap;
     z-index: 103;
-    margin-top: 80px;
+    margin-top: 60px;
     color: white;
   }
 
