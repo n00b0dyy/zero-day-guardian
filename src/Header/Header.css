@@ -211,7 +211,6 @@ header {
 
   .header-menus {
     margin-top: 60px;
-    margin-bottom: 30px;
   }
 
   .lang-btn {
@@ -245,5 +244,10 @@ header {
 
   .about-link:hover {
     color: #00ffff;
+  }
+  @media screen and (orientation: landscape) {
+    .body-images {
+      margin-top: 40px;
+    }
   }
 }
