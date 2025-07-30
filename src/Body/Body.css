@@ -136,12 +136,16 @@
   }
 
   .leaflet-container {
-    margin-top: 40px;
+    margin: 40px auto;
     border: 2px solid #fff;
     border-radius: 10px;
     height: 200px;
-    max-width: 500px;
     margin-left: 30px;
     margin-right: 30px;
+  }
+  .leaflet-popup-content {
+    font-size: 0.3rem;
+    overflow: visible !important;
+    z-index: 9999 !important;
   }
 }
