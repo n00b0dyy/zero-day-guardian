@@ -211,6 +211,7 @@ header {
 
   .header-menus {
     margin-top: 60px;
+    margin-bottom: 30px;
   }
 
   .lang-btn {
@@ -244,11 +245,5 @@ header {
 
   .about-link:hover {
     color: #00ffff;
-  }
-  @media screen and (max-height: 420px) and (orientation: landscape) {
-    .menu-title,
-    .menu2-title {
-      font-size: clamp(0.8rem, 2vw, 1.4rem);
-    }
   }
 }
