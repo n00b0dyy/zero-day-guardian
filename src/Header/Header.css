@@ -105,7 +105,7 @@ header {
 
 @media (max-width: 480px) {
   .header {
-    height: 160px;
+    height: 100px;
   }
 
   .about-me-link {
