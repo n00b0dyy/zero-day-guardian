@@ -12,7 +12,6 @@ const ArticleList = ({ menuCategory }) => {
       try {
         const response = await fetch(`/data/articles.${i18n.language}.json`);
         const data = await response.json();
-        console.log("Fetched articles:", data); // Debug: log loaded articles
         setArticles(data);
       } catch (error) {
         console.error("Error fetching articles:", error);
@@ -23,7 +22,6 @@ const ArticleList = ({ menuCategory }) => {
   }, [i18n.language]);
 
   if (!menuCategory) {
-    console.warn("Invalid menuCategory provided.");
     return <p>Invalid category provided.</p>;
   }
 

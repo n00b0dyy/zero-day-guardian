@@ -11,7 +11,7 @@ header {
 }
 
 .lang-btn {
-  all: unset; /* resetuje domyślne style buttona */
+  all: unset;
   display: inline-flex;
   align-items: center;
   justify-content: center;
