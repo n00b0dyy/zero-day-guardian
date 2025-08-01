@@ -53,10 +53,9 @@
   border-bottom: none;
 }
 
-/* Dopasowanie kolorystyki do pierwszego menu */
 .menu2-list li:hover {
-  background-color: black; /* Poprawione, aby było identyczne */
-  color: white; /* Poprawione, aby było identyczne */
+  background-color: black;
+  color: white;
 }
 
 @media (max-width: 480px) {

@@ -46,19 +46,19 @@ const Header = () => {
       </div>
       <div className="language-switcher">
         <button onClick={() => changeLanguage("en")} className="lang-btn">
-          <CircleFlag countryCode="gb" style={{ width: "24px" }} />
+          EN
         </button>
         <button onClick={() => changeLanguage("pl")} className="lang-btn">
-          <CircleFlag countryCode="pl" style={{ width: "24px" }} />
+          PL
         </button>
         <button onClick={() => changeLanguage("fr")} className="lang-btn">
-          <CircleFlag countryCode="fr" style={{ width: "24px" }} />
+          FR
         </button>
         <button onClick={() => changeLanguage("no")} className="lang-btn">
-          <CircleFlag countryCode="no" style={{ width: "24px" }} />
+          NO
         </button>
         <button onClick={() => changeLanguage("ru")} className="lang-btn">
-          <CircleFlag countryCode="ru" style={{ width: "24px" }} />
+          RU
         </button>
       </div>
     </header>

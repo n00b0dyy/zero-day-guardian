@@ -12,6 +12,7 @@
     "i18next-browser-languagedetector": "^8.0.2",
     "leaflet": "^1.9.4",
     "react": "18.2.0",
+    "react-circle-flags": "^0.0.23",
     "react-cookie-consent": "^9.0.0",
     "react-dom": "18.2.0",
     "react-helmet": "^6.1.0",
