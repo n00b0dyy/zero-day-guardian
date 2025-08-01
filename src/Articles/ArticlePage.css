@@ -87,6 +87,9 @@
     padding: 10px;
     margin-top: 20px;
   }
+  .article-banner {
+    margin-top: 90px;
+  }
 
   .article-main-image {
     max-width: 100%;
