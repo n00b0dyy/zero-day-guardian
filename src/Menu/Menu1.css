@@ -71,6 +71,9 @@
     left: 0;
     width: 140%;
   }
+  .menu-list.open {
+    width: 260px;
+  }
 }
 
 @media (min-width: 1024px) {
