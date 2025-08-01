@@ -6,7 +6,6 @@ import GlitchText from "../GlitchText/GlitchText";
 import Menu from "../Menu/Menu1";
 import Menu2 from "../Menu/Menu2";
 import { CircleFlag } from "react-circle-flags";
-import CyberEyeZero from "../CyberEyeZero/CyberEyeZero";
 
 const useDebouncedCallback = (callback, delay) => {
   const timerRef = useRef(null);
@@ -40,7 +39,6 @@ const Header = () => {
         <Link to="/" className="glitch-link">
           <GlitchText />
         </Link>
-        <CyberEyeZero />
       </div>
       <div className="header-menus">
         <Menu />
