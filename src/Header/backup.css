@@ -15,11 +15,14 @@ header {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
   cursor: pointer;
   border: none;
   background: none;
-  padding: 0;
-  margin: 0;
+  transition: transform 0.2s ease;
 }
 
 .lang-btn img,
@@ -168,6 +171,11 @@ header {
     white-space: normal;
     text-align: center;
   }
+  .lang-btn {
+    padding: 3px 8px;
+    font-size: 0.5rem;
+    border: 1px solid #aaa;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -198,10 +206,24 @@ header {
   align-items: center;
 }
 
-.lang-btn:focus,
-.lang-btn:active {
+.lang-btn {
+  background: none;
+  border: 2px solid #ccc;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  border-radius: 5px;
+}
+
+.lang-btn:hover {
+  background: #32ea73;
+  color: #000;
+}
+
+.lang-btn:focus {
   outline: none;
-  box-shadow: none;
 }
 
 @media (max-width: 1023px) {
@@ -219,6 +241,12 @@ header {
   .header-menus {
     margin-top: 60px;
     margin-bottom: 40px;
+  }
+
+  .lang-btn {
+    padding: 3px 8px;
+    font-size: 0.6rem;
+    border: 1px solid #aaa;
   }
 
   .language-switcher {

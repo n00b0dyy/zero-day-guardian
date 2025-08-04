@@ -1,1 +1,0 @@
-style="color: #6fd430; background-color: #000000; padding: 15px; border-radius: 5px; font-size: 18px; max-width: 100%; overflow-x: auto; white-space: pre-wrap; word-break: break-word;"
