@@ -16,8 +16,9 @@
   width: 240px;
   padding-top: 50px;
   margin-left: 20px;
-  margin: 0 auto;
+  margin-right: 0;
   text-align: left;
+  display: block;
 }
 
 .about-me-photo {
@@ -27,9 +28,6 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   margin-top: 50px;
   margin-bottom: 100px;
-  display: block;
-  margin-left: 20px;
-  margin-right: auto;
 }
 
 .about-me-socials {
