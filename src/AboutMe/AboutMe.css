@@ -15,7 +15,8 @@
 .about-me-photo-container {
   width: 240px;
   padding-top: 50px;
-  margin: 0;
+  margin-left: 20px;
+  margin: 0 auto;
   text-align: left;
 }
 
@@ -88,14 +89,6 @@
 
 .courses-list a:hover {
   text-decoration: underline;
-}
-
-@media (min-width: 1025px) {
-  .about-me-photo-container {
-    float: left;
-    margin-left: 20px;
-    margin-right: 40px;
-  }
 }
 
 @media (max-width: 1026px) {
