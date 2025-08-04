@@ -15,8 +15,7 @@
 .about-me-photo-container {
   width: 240px;
   padding-top: 50px;
-  margin-left: 20px;
-  margin: 0 auto;
+  margin: 0;
   text-align: left;
 }
 
@@ -27,8 +26,6 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-left: 20px;
-  text-align: left;
 }
 
 .about-me-socials {
@@ -91,6 +88,14 @@
 
 .courses-list a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 1025px) {
+  .about-me-photo-container {
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+  }
 }
 
 @media (max-width: 1026px) {
