@@ -12,28 +12,10 @@ import "./AboutMe.css";
 const AboutMe = () => {
   const { t, i18n } = useTranslation();
 
-  useEffect(() => {
-    console.log("Language changed to:", i18n.language);
-    // Debug — wyświetl wszystkie kluczowe elementy AboutMe
-    console.log("aboutMe.descriptionStart:", t("aboutMe.descriptionStart"));
-    console.log("aboutMe.name:", t("aboutMe.name"));
-    console.log("aboutMe.descriptionMiddle:", t("aboutMe.descriptionMiddle"));
-    console.log("aboutMe.computerScience:", t("aboutMe.computerScience"));
-    console.log("aboutMe.pagePurpose:", t("aboutMe.pagePurpose"));
-    console.log("aboutMe.coursesTitle:", t("aboutMe.coursesTitle"));
-    console.log(
-      "aboutMe.beyondTechnologyTitle:",
-      t("aboutMe.beyondTechnologyTitle")
-    );
-    console.log(
-      "aboutMe.beyondTechnologyDescription:",
-      t("aboutMe.beyondTechnologyDescription")
-    );
-  }, [i18n.language]);
+  useEffect(() => {}, [i18n.language]);
 
   return (
     <main className="about-me-container">
-      {/* Sekcja linków społecznościowych */}
       <header className="about-me-socials">
         <div className="socials-icons">
           <a
