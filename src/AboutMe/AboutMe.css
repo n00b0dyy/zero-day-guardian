@@ -15,8 +15,9 @@
 .about-me-photo-container {
   width: 240px;
   padding-top: 50px;
+  margin-left: 20px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .about-me-photo {
