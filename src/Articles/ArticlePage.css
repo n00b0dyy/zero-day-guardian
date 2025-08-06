@@ -8,12 +8,8 @@
 
 .green {
   color: #6fd430;
-  background-color: #000000;
-  padding: 15px;
-  border-radius: 5px;
   font-size: 20px;
-  max-width: 100%;
-  overflow-x: auto;
+  border-radius: 5px;
   white-space: pre-wrap;
   word-break: break-word;
 }
